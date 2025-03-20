@@ -8,8 +8,13 @@ public class Pushpa {
     }
     void useClip(Clip[] clips){
         for(Clip clip : clips){
-            System.out.println("Clip color : "+clip.color);
-            clip.hold();
+            if(clip != null){
+                System.out.println("Clip color : "+clip.color);
+                clip.hold();
+            }
+            else{
+                System.err.println("The value of clip is null");
+            }
         }
     }
 }

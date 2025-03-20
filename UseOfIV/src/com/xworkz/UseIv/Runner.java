@@ -12,7 +12,35 @@ public class Runner {
 
 
         Pushpa pushpa = new Pushpa(clips);
-        pushpa.useClip(clips);
+        if(pushpa != null) {
+            pushpa.useClip(clips);
+        }
+        else System.out.println("The value of pushpa is null");
+
+        System.out.println("==================================");
+
+        Ticket ticket = new Ticket();
+
+        Cricket cricket = new Cricket(ticket);
+        if(cricket != null){
+            cricket.watch(100);
+            cricket.profit();
+        }
+        else System.err.println("The value of cricket is null");
+
+        System.out.println("==================================");
+
+        Brush brush = new Brush();
+        Virat virat = new Virat(cricket, brush, ticket);
+
+        if(virat != null){
+            virat.play();
+            virat.clean();
+            virat.relax();
+        }
+        else{
+            System.err.println("The value of virat is null");
+        }
 
     }
 
