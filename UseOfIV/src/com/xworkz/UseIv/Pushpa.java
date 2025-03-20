@@ -1,4 +1,4 @@
-package ClassWithIVAsDt;
+package com.xworkz.UseIv;
 
 public class Pushpa {
     Clip[] clips;
