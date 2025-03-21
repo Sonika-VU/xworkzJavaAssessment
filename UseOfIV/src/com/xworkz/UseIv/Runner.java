@@ -41,6 +41,7 @@ public class Runner {
         else{
             System.err.println("The value of virat is null");
         }
+        System.out.println("==================================");
 
     }
 
