@@ -10,5 +10,6 @@ public class Runner {
 
         com.xworkz.RefAndVar.EducationDetails.Security security = new Security("Ramu", "Vijaynagar", "12", 20000);
         security.display();
+
     }
 }
