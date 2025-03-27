@@ -1,9 +1,6 @@
 package com.xworkz.association.external;
 
-import com.xworkz.association.internal.Lamp;
-import com.xworkz.association.internal.Quality;
-import com.xworkz.association.internal.Warranty;
-import com.xworkz.association.internal.Wire;
+import com.xworkz.association.internal.*;
 
 import java.awt.geom.QuadCurve2D;
 
@@ -13,6 +10,8 @@ public class Projector {
     Lamp lamp = new Lamp(warranty);
     Quality quality = new Quality();
     Wire wire = new Wire(quality);
+    Battery battery = new Battery();
+    Remote remote = new Remote(battery);
 
     public void useProjector(){
 
@@ -27,6 +26,12 @@ public class Projector {
         System.out.println("Wire length : "+this.wire.getLength());
         System.out.println("Wire cost : "+this.wire.getCost());
         this.wire.transferData();
+
+        remote.setColor("Black");
+        remote.setSize("M");
+        System.out.println("Remote Color: "+remote.getColor());
+        System.out.println("Remote Size : "+remote.getSize());
+        remote.pressKey();
 
 
 
