@@ -12,28 +12,48 @@ public class Projector {
     Wire wire = new Wire(quality);
     Battery battery = new Battery();
     Remote remote = new Remote(battery);
+    Port port = new Port();
+    Material material = new Material();
+    Button button = new Button(material);
+
 
     public void useProjector(){
 
-        this.lamp.setCost(500);
-        this.lamp.setColor("Blue");
-        System.out.println("Lamp cost : "+this.lamp.getCost());
-        System.out.println("Lamp color : "+this.lamp.getColor());
-        this.lamp.glow();
+        if(lamp != null){
+            this.lamp.setCost(500);
+            this.lamp.setColor("Blue");
+            System.out.println("Lamp cost : "+this.lamp.getCost());
+            System.out.println("Lamp color : "+this.lamp.getColor());
+            this.lamp.glow();
+        }
 
-        this.wire.setLength(100);
-        this.wire.setCost(500);
-        System.out.println("Wire length : "+this.wire.getLength());
-        System.out.println("Wire cost : "+this.wire.getCost());
-        this.wire.transferData();
+        if(wire != null){
+            this.wire.setLength(100);
+            this.wire.setCost(500);
+            System.out.println("Wire length : "+this.wire.getLength());
+            System.out.println("Wire cost : "+this.wire.getCost());
+            this.wire.transferData();
+        }
 
-        remote.setColor("Black");
-        remote.setSize("M");
-        System.out.println("Remote Color: "+remote.getColor());
-        System.out.println("Remote Size : "+remote.getSize());
-        remote.pressKey();
+        if(remote != null){
+            remote.setColor("Black");
+            remote.setSize("M");
+            System.out.println("Remote Color: "+remote.getColor());
+            System.out.println("Remote Size : "+remote.getSize());
+            remote.pressKey();
+        }
 
+        if(port != null){
+            port.connect();
+            port.setPortType(PortType.HDMI);
+            System.out.println("Port type : "+port.getPortType());
+        }
 
+        if(button != null){
+            button.setNoOfButton(12);
+            System.out.println("No of buttons : "+button.getNoOfButton());
+            button.performFunc();
+        }
 
 
     }

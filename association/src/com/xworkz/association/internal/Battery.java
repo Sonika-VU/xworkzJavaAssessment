@@ -5,7 +5,7 @@ public class Battery {
     private int cost;
 
     public void convertEnergy(){
-        System.out.println("Running convertEnergy in Battery");
+        System.out.println("\tRunning convertEnergy in Battery");
     }
 
     public Battery(){
