@@ -26,7 +26,7 @@ class Pichkari {
 	
 	public Pichkari (String color, double price, int length, char size){
 		this(color, price, length);
-		this.char =char;
+		this.size =size;
 	}
 	
 	public Pichkari (String color, double price, int length, char size, String purchasedFrom){
@@ -45,7 +45,7 @@ class Pichkari {
 		System.out.println("Length : "+this.length);
 		System.out.println("Size : "+this.size);
 		System.out.println("Purchased from : "+this.purchasedFrom);
-		System.out.println("Shape : "this.shape);
+		System.out.println("Shape : "+this.shape);
 	}
 	
 }

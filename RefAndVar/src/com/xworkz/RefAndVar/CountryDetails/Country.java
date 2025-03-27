@@ -6,6 +6,7 @@ public class Country {
     String pm;
     String president;
     String nationalFlag;
+    PrimeMinister primeMinister = new PrimeMinister("Narendra Modi", "India", 2025, 16);
 
     Country(String name, String pm, String president, String nationalFlag){
         this.name = name;
@@ -14,7 +15,6 @@ public class Country {
         this.nationalFlag = nationalFlag;
     }
 
-    PrimeMinister primeMinister = new PrimeMinister("Narendra Modi", "India", 2025, 16);
 
     void display(){
         System.out.println("In Country : ");

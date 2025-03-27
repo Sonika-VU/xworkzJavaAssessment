@@ -44,7 +44,5 @@ public class Runner {
         earth.assignDetails();
         earth.printDetails();
         earth.printSeenBy(alien1);
-
-
     }
 }

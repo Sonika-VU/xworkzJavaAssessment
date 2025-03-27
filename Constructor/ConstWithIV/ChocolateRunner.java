@@ -2,16 +2,16 @@ class ChocolateRunner {
 	
 	public static void main(String[] args){
 		
-		Chocolate chocolate1 = new Chocolate ();
-		Chocolate chocolate2 = new Chocolate ();
-		Chocolate chocolate3 = new Chocolate ();
-		Chocolate chocolate4 = new Chocolate ();
-		Chocolate chocolate5 = new Chocolate ();
-		Chocolate chocolate6 = new Chocolate ();
-		Chocolate chocolate7 = new Chocolate ();
-		Chocolate chocolate8 = new Chocolate ();
-		Chocolate chocolate9 = new Chocolate ();
-		Chocolate chocolate10 = new Chocolate ();
+		IceCream chocolate1 = new IceCream();
+		IceCream chocolate2 = new IceCream();
+		IceCream chocolate3 = new IceCream();
+		IceCream chocolate4 = new IceCream();
+		IceCream chocolate5 = new IceCream();
+		IceCream chocolate6 = new IceCream();
+		IceCream chocolate7 = new IceCream();
+		IceCream chocolate8 = new IceCream();
+		IceCream chocolate9 = new IceCream();
+		IceCream chocolate10 = new IceCream();
 		
 		chocolate1.name = "Dairy milk";
 		chocolate1.price = 50;
