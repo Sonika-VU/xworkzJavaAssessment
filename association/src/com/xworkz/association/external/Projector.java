@@ -10,11 +10,15 @@ public class Projector {
     Lamp lamp = new Lamp(warranty);
     Quality quality = new Quality();
     Wire wire = new Wire(quality);
-    Battery battery = new Battery();
+    Voltage voltage = new Voltage();
+    Battery battery = new Battery(voltage);
     Remote remote = new Remote(battery);
     Port port = new Port();
     Material material = new Material();
     Button button = new Button(material);
+    Capacitor capacitor = new Capacitor();
+    Board board = new Board(capacitor);
+
 
 
     public void useProjector(){
@@ -54,6 +58,7 @@ public class Projector {
             System.out.println("No of buttons : "+button.getNoOfButton());
             button.performFunc();
         }
+
 
 
     }
