@@ -3,31 +3,37 @@ package com.xworkz.isARelation;
 public class AirConditioner extends Appliance{
     public AirConditioner() {
         super();
-        System.out.println("no-arg const of HairDryer");
+        System.out.println("no-arg const of AirConditioner");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in AirConditioner");
     }
 
-    {
-        super.adjustSettings();
+    @Override
+    public void adjustSettings(){
+//        super.adjustSettings();
         System.out.println("Running adjustSettings in AirConditioner");
     }
 
+    @Override
+    public void showStatus()
     {
-        super.showStatus();
+//        super.showStatus();
         System.out.println("Running showStatus in AirConditioner");
     }
 
-    {
-        super.scheduleTask();
+    @Override
+    public void scheduleTask(){
+//        super.scheduleTask();
         System.out.println("Running scheduleTask in AirConditioner");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in AirConditioner");
     }
 }
