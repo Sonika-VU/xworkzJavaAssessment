@@ -6,28 +6,33 @@ public class Sailboat extends Boat {
         System.out.println("no-arg const of Sailboat");
     }
 
-    {
-        super.floatOnWater();
+    @Override
+    public void floatOnWater(){
+//        super.floatOnWater();
         System.out.println("Running floatOnWater in Sailboat");
     }
 
-    {
-        super.steer();
+    @Override
+    public void steer(){
+//        super.steer();
         System.out.println("Running steer in Sailboat");
     }
 
-    {
-        super.anchor();
+    @Override
+    public void anchor(){
+//        super.anchor();
         System.out.println("Running anchor in Sailboat");
     }
 
-    {
-        super.speedUp();
+    @Override
+    public void speedUp(){
+//        super.speedUp();
         System.out.println("Running speedUp in Sailboat");
     }
 
-    {
-        super.slowDown();
+    @Override
+    public void slowDown(){
+//        super.slowDown();
         System.out.println("Running slowDown in Sailboat");
     }
 }

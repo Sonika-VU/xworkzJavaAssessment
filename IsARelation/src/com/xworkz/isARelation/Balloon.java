@@ -6,28 +6,33 @@ public class Balloon extends Factory{
         System.out.println("no-arg const of Balloon");
     }
 
-    {
-        super.getEmployee();
+    @Override
+    public void getEmployee(){
+//        super.getEmployee();
         System.out.println("Running getEmployee in Balloon");
     }
 
-    {
-        super.setEquipments();
+    @Override
+    public void setEquipments(){
+//        super.setEquipments();
         System.out.println("Running setEquipments in Balloon");
     }
 
-    {
-        super.manufacture();
+    @Override
+    public void manufacture(){
+//        super.manufacture();
         System.out.println("Running manufacture in Balloon");
     }
 
-    {
-        super.selectItem();
+    @Override
+    public void selectItem(){
+//        super.selectItem();
         System.out.println("Running selectItem in Balloon");
     }
 
-    {
-        super.produceProduct();
+    @Override
+    public void produceProduct(){
+//        super.produceProduct();
         System.out.println("Running produceProduct in Balloon");
     }
 }

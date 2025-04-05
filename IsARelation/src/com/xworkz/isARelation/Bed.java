@@ -6,20 +6,29 @@ public class Bed extends Furniture {
         System.out.println("no-arg const of Bed");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble(){
         System.out.println("Fixing bed frame and mattress");
+    }
 
-        super.disassemble();
+    @Override
+    public void disassemble(){
         System.out.println("Disassembling bed for storage");
 
-        super.clean();
+    }
+
+    @Override
+            public void clean() {
         System.out.println("Dusting the bed and cleaning mattress");
+    }
 
-        super.move();
+    @Override
+            public void move() {
         System.out.println("Moving bed to master bedroom");
+    }
 
-        super.paint();
+    @Override
+            public void paint() {
         System.out.println("Painting the headboard");
     }
 }

@@ -7,28 +7,33 @@ public class Blender extends Appliance{
         System.out.println("no-arg const of Blender");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in Blender");
     }
 
-    {
-        super.adjustSettings();
+    @Override
+    public void adjustSettings(){
+//        super.adjustSettings();
         System.out.println("Running adjustSettings in Blender");
     }
 
-    {
-        super.showStatus();
+    @Override
+    public void showStatus(){
+//        super.showStatus();
         System.out.println("Running showStatus in Blender");
     }
 
-    {
-        super.scheduleTask();
+    @Override
+    public void scheduleTask(){
+//        super.scheduleTask();
         System.out.println("Running scheduleTask in Blender");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in Blender");
     }
 }

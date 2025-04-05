@@ -6,28 +6,33 @@ public class Painter extends Artist {
         System.out.println("no-arg const of Painter");
     }
 
-    {
-        super.createArt();
+    @Override
+    public  void createArt(){
+//        super.createArt();
         System.out.println("Running createArt in Painter");
     }
 
-    {
-        super.useColors();
+    @Override
+    public void useColors(){
+//        super.useColors();
         System.out.println("Running useColors in Painter");
     }
 
-    {
-        super.sketch();
+    @Override
+    public void sketch(){
+//        super.sketch();
         System.out.println("Running sketch in Painter");
     }
 
-    {
-        super.visualize();
+    @Override
+    public void visualize(){
+//        super.visualize();
         System.out.println("Running visualize in Painter");
     }
 
-    {
-        super.displayArt();
+    @Override
+    public void displayArt(){
+//        super.displayArt();
         System.out.println("Running displayArt in Painter");
     }
 }

@@ -6,28 +6,33 @@ public class Account extends Bank {
         System.out.println("no-arg const of Account");
     }
 
-    {
-        super.openAccount();
+    @Override
+    public void openAccount(){
+//        super.openAccount();
         System.out.println("Running openAccount in Account");
     }
 
-    {
-        super.depositMoney();
+    @Override
+    public void depositMoney(){
+//        super.depositMoney();
         System.out.println("Running depositMoney in Account");
     }
 
-    {
-        super.withdrawMoney();
+    @Override
+    public void withdrawMoney(){
+//        super.withdrawMoney();
         System.out.println("Running withdrawMoney in Account");
     }
 
-    {
-        super.checkBalance();
+    @Override
+    public void checkBalance(){
+//        super.checkBalance();
         System.out.println("Running checkBalance in Account");
     }
 
-    {
-        super.closeAccount();
+    @Override
+    public void closeAccount(){
+//        super.closeAccount();
         System.out.println("Running closeAccount in Account");
     }
 }

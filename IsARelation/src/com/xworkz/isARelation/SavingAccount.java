@@ -7,28 +7,33 @@ public class SavingAccount extends BankAccount{
         System.out.println("no-arg const of SavingAccount");
     }
 
-    {
-        super.openAccount();
+    @Override
+    public void openAccount(){
+//        super.openAccount();
         System.out.println("Running openAccount in SavingAccount");
     }
 
-    {
-        super.deposit();
+    @Override
+    public void deposit(){
+//        super.deposit();
         System.out.println("Running deposit in SavingAccount");
     }
 
-    {
-        super.withdraw();
+    @Override
+    public  void withdraw(){
+//        super.withdraw();
         System.out.println("Running withdraw in SavingAccount");
     }
 
-    {
-        super.takeLoan();
+    @Override
+    public void takeLoan(){
+//        super.takeLoan();
         System.out.println("Running takeLoan in SavingAccount");
     }
 
-    {
-        super.closeAccount();
+    @Override
+    public void closeAccount(){
+//        super.closeAccount();
         System.out.println("Running closeAccount in SavingAccount");
     }
 }

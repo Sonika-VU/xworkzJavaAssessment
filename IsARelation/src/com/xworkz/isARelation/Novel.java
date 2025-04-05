@@ -7,27 +7,33 @@ public class Novel extends Book{
         System.out.println("no-arg const of Novel");
     }
 
-    {
-        super.write();
+    @Override
+    public void write(){
+//        super.write();
         System.out.println("Running write in Novel");
     }
 
-    {
-        super.read();
+    @Override
+    public void read(){
+//        super.read();
         System.out.println("Running read in Novel");
     }
-    {
-        super.giftIt();
+
+    @Override
+    public void giftIt(){
+//        super.giftIt();
         System.out.println("Running giftIt in Novel");
     }
 
-    {
-        super.print();
+    @Override
+    public void print(){
+//        super.print();
         System.out.println("Running print in Novel");
     }
 
-    {
-        super.wrap();
+    @Override
+    public void wrap(){
+//        super.wrap();
         System.out.println("Running wrap in Book");
     }
 }
