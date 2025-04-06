@@ -7,28 +7,33 @@ public class Chocolate extends Factory{
         System.out.println("no-arg const of Chocolate");
     }
 
-    {
-        super.getEmployee();
+    @Override
+    public void getEmployee(){
+//        super.getEmployee();
         System.out.println("Running getEmployee in Chocolate");
     }
 
-    {
-        super.setEquipments();
+    @Override
+    public void setEquipments(){
+//        super.setEquipments();
         System.out.println("Running setEquipments in Chocolate");
     }
 
-    {
-        super.manufacture();
+    @Override
+    public void manufacture(){
+//        super.manufacture();
         System.out.println("Running manufacture in Chocolate");
     }
 
-    {
-        super.selectItem();
+    @Override
+    public void selectItem(){
+//        super.selectItem();
         System.out.println("Running selectItem in Chocolate");
     }
 
-    {
-        super.produceProduct();
+    @Override
+    public void produceProduct(){
+//        super.produceProduct();
         System.out.println("Running produceProduct in Chocolate");
     }
 }

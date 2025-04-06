@@ -6,28 +6,33 @@ public class Shark extends Fish {
         System.out.println("no-arg const of Shark");
     }
 
-    {
-        super.swim();
+    @Override
+    public void swim(){
+//        super.swim();
         System.out.println("Running swim in Shark");
     }
 
-    {
-        super.breatheUnderwater();
+    @Override
+    public void breatheUnderwater(){
+//        super.breatheUnderwater();
         System.out.println("Running breatheUnderwater in Shark");
     }
 
-    {
-        super.layEggs();
+    @Override
+    public void layEggs(){
+//        super.layEggs();
         System.out.println("Running layEggs in Shark");
     }
 
-    {
-        super.findFood();
+    @Override
+    public void findFood(){
+//        super.findFood();
         System.out.println("Running findFood in Shark");
     }
 
-    {
-        super.hide();
+    @Override
+    public void hide(){
+//        super.hide();
         System.out.println("Running hide in Shark");
     }
 }

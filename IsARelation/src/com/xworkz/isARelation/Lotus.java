@@ -6,20 +6,33 @@ public class Lotus extends Flower {
         System.out.println("no-arg const of Lotus");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Lotus is used for decoration in temples");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Lotus is rarely used in garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Lotus provides nectar for bees");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Lotus petals fall in water");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Lotus seeds are used in herbal drinks");
     }
 }

@@ -6,20 +6,33 @@ public class Lavender extends Flower {
         System.out.println("no-arg const of Lavender");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Lavender is used for decoration and fragrance");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Lavender is rarely used in garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Lavender attracts bees for pollination");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Lavender petals fall when dried");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Lavender tea is a popular herbal drink");
     }
 }

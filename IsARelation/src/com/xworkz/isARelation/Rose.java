@@ -7,28 +7,33 @@ public class Rose extends Flower{
         System.out.println("no-arg const of Rose");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate(){
+//        super.decorate();
         System.out.println("Running decorate in Rose");
     }
 
-    {
-        super.garland();
+    @Override
+    public void garland(){
+//        super.garland();
         System.out.println("Running garland in Rose");
     }
 
-    {
-        super.provideNectar();
+    @Override
+    public void provideNectar(){
+//        super.provideNectar();
         System.out.println("Running provideNectar in Rose ");
     }
 
-    {
-        super.fell();
+    @Override
+    public void fell(){
+//        super.fell();
         System.out.println("Running fell in Rose");
     }
 
-    {
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Running makeDrinks in Rose");
     }
 }

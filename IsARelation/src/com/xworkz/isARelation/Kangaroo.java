@@ -6,20 +6,33 @@ public class Kangaroo extends Animal {
         System.out.println("no-arg const of Kangaroo");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Kangaroo is eating grass");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Kangaroo is resting on the ground");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Kangaroo is grunting");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Kangaroo is hopping");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Kangaroo is breathing quickly after jumping");
     }
 }

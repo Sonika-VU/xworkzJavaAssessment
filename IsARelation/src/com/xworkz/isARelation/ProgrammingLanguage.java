@@ -7,28 +7,33 @@ public class ProgrammingLanguage extends Language{
         System.out.println("no-arg const of ProgrammingLanguage");
     }
 
-    {
-        super.communicate();
+    @Override
+    public void communicate(){
+//        super.communicate();
         System.out.println("Running communicate in ProgrammingLanguage");
     }
 
-    {
-        super.read();
+    @Override
+    public void read(){
+//        super.read();
         System.out.println("Running read in ProgrammingLanguage");
     }
 
-    {
-        super.write();
+    @Override
+    public void write(){
+//        super.write();
         System.out.println("Running write in ProgrammingLanguage");
     }
 
-    {
-        super.translate();
+    @Override
+    public void translate(){
+//        super.translate();
         System.out.println("Running translate in ProgrammingLanguage");
     }
 
-    {
-        super.storeData();
+    @Override
+    public void storeData(){
+//        super.storeData();
         System.out.println("Running storeData in ProgrammingLanguage");
     }
 }

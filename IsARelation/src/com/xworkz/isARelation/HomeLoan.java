@@ -6,28 +6,33 @@ public class HomeLoan extends Loan {
         System.out.println("no-arg const of HomeLoan");
     }
 
-    {
-        super.applyLoan();
+    @Override
+    public void applyLoan(){
+//        super.applyLoan();
         System.out.println("Applying for Home Loan");
     }
 
-    {
-        super.checkEligibility();
+    @Override
+    public void checkEligibility(){
+//        super.checkEligibility();
         System.out.println("Checking Home Loan eligibility");
     }
 
-    {
-        super.approveLoan();
+    @Override
+    public void approveLoan(){
+//        super.approveLoan();
         System.out.println("Approving Home Loan");
     }
 
-    {
-        super.disburseLoan();
+    @Override
+    public void disburseLoan(){
+//        super.disburseLoan();
         System.out.println("Disbursing Home Loan");
     }
 
-    {
-        super.repayLoan();
+    @Override
+    public void repayLoan(){
+//        super.repayLoan();
         System.out.println("Repaying Home Loan in EMI");
     }
 }

@@ -7,28 +7,33 @@ public class Kettle extends  Appliance{
         System.out.println("no-arg const of Kettle");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in Kettle");
     }
 
-    {
-        super.adjustSettings();
+    @Override
+    public void adjustSettings(){
+//        super.adjustSettings();
         System.out.println("Running adjustSettings in Kettle");
     }
 
-    {
-        super.showStatus();
+    @Override
+    public void showStatus(){
+//        super.showStatus();
         System.out.println("Running showStatus in Kettle");
     }
 
-    {
-        super.scheduleTask();
+    @Override
+    public void scheduleTask(){
+//        super.scheduleTask();
         System.out.println("Running scheduleTask in Kettle");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in Kettle");
     }
 }

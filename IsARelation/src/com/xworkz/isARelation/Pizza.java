@@ -7,28 +7,33 @@ public class Pizza extends Food{
         System.out.println("no-arg const of Pizza");
     }
 
-    {
-        super.prepare();
+    @Override
+    public void prepare(){
+//        super.prepare();
         System.out.println("Running prepare in Pizza");
     }
 
-    {
-        super.selectIngredients();
+    @Override
+    public void selectIngredients(){
+//        super.selectIngredients();
         System.out.println("Running selectIngredients in Pizza");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat(){
+//        super.eat();
         System.out.println("Running eat in Pizza");
     }
 
-    {
-        super.cutVeggies();
+    @Override
+    public void cutVeggies(){
+//        super.cutVeggies();
         System.out.println("Running cutVeggies in Pizza");
     }
 
-    {
-        super.serve();
+    @Override
+    public void serve(){
+//        super.serve();
         System.out.println("Running serve in Pizza");
     }
 }

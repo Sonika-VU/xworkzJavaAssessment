@@ -6,28 +6,33 @@ public class Butterfly extends Insect {
         System.out.println("no-arg const of Butterfly");
     }
 
-    {
-        super.crawl();
+    @Override
+    public void crawl(){
+//        super.crawl();
         System.out.println("Running crawl in Butterfly");
     }
 
-    {
-        super.fly();
+    @Override
+    public void fly(){
+//        super.fly();
         System.out.println("Running fly in Butterfly");
     }
 
-    {
-        super.layEggs();
+    @Override
+    public void layEggs(){
+//        super.layEggs();
         System.out.println("Running layEggs in Butterfly");
     }
 
-    {
-        super.senseSurroundings();
+    @Override
+    public void senseSurroundings(){
+//        super.senseSurroundings();
         System.out.println("Running senseSurroundings in Butterfly");
     }
 
-    {
-        super.feed();
+    @Override
+    public void feed(){
+//        super.feed();
         System.out.println("Running feed in Butterfly");
     }
 }

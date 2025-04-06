@@ -6,28 +6,33 @@ public class Stock extends Investment {
         System.out.println("no-arg const of Stock");
     }
 
-    {
-        super.investMoney();
+    @Override
+    public void investMoney(){
+//        super.investMoney();
         System.out.println("Investing money in Stock market");
     }
 
-    {
-        super.calculateReturns();
+    @Override
+    public void calculateReturns(){
+//        super.calculateReturns();
         System.out.println("Calculating Stock returns");
     }
 
-    {
-        super.withdrawInvestment();
+    @Override
+    public void withdrawInvestment(){
+//        super.withdrawInvestment();
         System.out.println("Selling Stocks to withdraw");
     }
 
-    {
-        super.diversifyPortfolio();
+    @Override
+    public  void diversifyPortfolio(){
+//        super.diversifyPortfolio();
         System.out.println("Diversifying Stocks in portfolio");
     }
 
-    {
-        super.analyzeMarket();
+    @Override
+    public void analyzeMarket(){
+//        super.analyzeMarket();
         System.out.println("Analyzing stock market trends");
     }
 }

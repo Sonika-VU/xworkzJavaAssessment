@@ -6,28 +6,33 @@ public class FloorLamp extends Lamp {
         System.out.println("no-arg const of FloorLamp");
     }
 
-    {
-        super.produceLight();
+    @Override
+    public void produceLight(){
+//        super.produceLight();
         System.out.println("Running produceLight in FloorLamp");
     }
 
-    {
-        super.consumeElectricity();
+    @Override
+    public void consumeElectricity(){
+//        super.consumeElectricity();
         System.out.println("Running consumeElectricity in FloorLamp");
     }
 
-    {
-        super.haveSwitch();
+    @Override
+    public void haveSwitch(){
+//        super.haveSwitch();
         System.out.println("Running haveSwitch in FloorLamp");
     }
 
-    {
-        super.bePortable();
+    @Override
+    public void bePortable(){
+//        super.bePortable();
         System.out.println("Running bePortable in FloorLamp");
     }
 
-    {
-        super.haveBulb();
+    @Override
+    public void haveBulb(){
+//        super.haveBulb();
         System.out.println("Running haveBulb in FloorLamp");
     }
 }

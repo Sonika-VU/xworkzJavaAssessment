@@ -7,28 +7,33 @@ public class MyGlamm extends LipStick{
         System.out.println("no-arg const of MyGlamm");
     }
 
-    {
-        super.apply();
+    @Override
+    public void apply(){
+//        super.apply();
         System.out.println("Running apply in LipStick");
     }
 
-    {
-        super.remove();
+    @Override
+    public void remove(){
+//        super.remove();
         System.out.println("Running remove in LipStick");
     }
 
-    {
-        super.remove();
+    @Override
+    public void prepare(){
+//        super.prepare();
         System.out.println("Running prepare in LipStick");
     }
 
-    {
-        super.pack();
+    @Override
+    public void pack(){
+//        super.pack();
         System.out.println("Running pack in LipStick");
     }
 
-    {
-        super.giftIt();
+    @Override
+    public void giftIt(){
+//        super.giftIt();
         System.out.println("Running giftIt in LipStick");
     }
 }

@@ -7,28 +7,33 @@ public class Bulb extends Light{
         System.out.println("no-arg const of Bulb");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in Light");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in Light");
     }
 
-    {
-        super.displayObject();
+    @Override
+    public void displayObject(){
+//        super.displayObject();
         System.out.println("Running displayObject in Light");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate(){
+//        super.decorate();
         System.out.println("Running decorate in Light");
     }
 
-    {
-        super.hangIt();
+    @Override
+    public void hangIt(){
+//        super.hangIt();
         System.out.println("Running hangIt in Light");
     }
 }

@@ -6,20 +6,33 @@ public class Lily extends Flower {
         System.out.println("no-arg const of Lily");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Lily is used in floral decorations");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Lily is sometimes used in wedding garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Lily attracts bees and butterflies with nectar");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Lily petals fall after a few days");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Lily extract is used in herbal medicines");
     }
 }

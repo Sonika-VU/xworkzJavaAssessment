@@ -6,20 +6,33 @@ public class Jasmine extends Flower {
         System.out.println("no-arg const of Jasmine");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Jasmine is used for decoration and perfumes");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Jasmine is commonly used in garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Jasmine provides nectar for butterflies");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Jasmine petals fall easily");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Jasmine is used in tea and scented drinks");
     }
 }

@@ -7,28 +7,33 @@ public class Guitar extends Instrument{
         System.out.println("no-arg const of Guitar");
     }
 
-    {
-        super.buy();
+    @Override
+    public void buy(){
+//        super.buy();
         System.out.println("Running buy in Guitar");
     }
 
-    {
-        super.use();
+    @Override
+    public void use(){
+//        super.use();
         System.out.println("Running use in Guitar");
     }
 
-    {
-        super.manufacture();
+    @Override
+    public void manufacture(){
+//        super.manufacture();
         System.out.println("Running manufacture in Guitar");
     }
 
-    {
-        super.sell();
+    @Override
+    public void sell(){
+//        super.sell();
         System.out.println("Running sell in Guitar");
     }
 
-    {
-        super.play();
+    @Override
+    public void play(){
+//        super.play();
         System.out.println("Running play in Guitar");
     }
 }

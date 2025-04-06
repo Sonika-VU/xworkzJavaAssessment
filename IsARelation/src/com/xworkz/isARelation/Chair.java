@@ -6,28 +6,33 @@ public class Chair extends Furniture {
         System.out.println("no-arg const of Chair");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble(){
+//        super.assemble();
         System.out.println("Running assemble in Chair");
     }
 
-    {
-        super.disassemble();
+    @Override
+    public void disassemble(){
+//        super.disassemble();
         System.out.println("Running disassemble in Chair");
     }
 
-    {
-        super.clean();
+    @Override
+    public void clean(){
+//        super.clean();
         System.out.println("Running clean in Chair");
     }
 
-    {
-        super.move();
+    @Override
+    public void move(){
+//        super.move();
         System.out.println("Running move in Chair");
     }
 
-    {
-        super.paint();
+    @Override
+    public void paint(){
+//        super.paint();
         System.out.println("Running paint in Chair");
     }
 }

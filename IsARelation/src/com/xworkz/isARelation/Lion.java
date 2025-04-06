@@ -6,20 +6,33 @@ public class Lion extends Animal {
         System.out.println("no-arg const of Lion");
     }
 
-    {
-        super.eat();
+    @Override
+    public void  eat() {
+//        super.eat();
         System.out.println("Lion is eating meat");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Lion is sleeping under a tree");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Lion is roaring");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Lion is running fast");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Lion is breathing heavily");
     }
 }
