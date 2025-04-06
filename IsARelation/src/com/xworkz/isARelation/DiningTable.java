@@ -6,28 +6,33 @@ public class DiningTable extends Table {
         System.out.println("no-arg const of DiningTable");
     }
 
-    {
-        super.supportObjects();
+    @Override
+    public void supportObjects(){
+//        super.supportObjects();
         System.out.println("Running supportObjects in DiningTable");
     }
 
-    {
-        super.provideSurface();
+    @Override
+    public void provideSurface(){
+//        super.provideSurface();
         System.out.println("Running provideSurface in DiningTable");
     }
 
-    {
-        super.beStable();
+    @Override
+    public void beStable(){
+//        super.beStable();
         System.out.println("Running beStable in DiningTable");
     }
 
-    {
-        super.beMovable();
+    @Override
+    public void beMovable(){
+//        super.beMovable();
         System.out.println("Running beMovable in DiningTable");
     }
 
-    {
-        super.beDurable();
+    @Override
+    public void beDurable(){
+//        super.beDurable();
         System.out.println("Running beDurable in DiningTable");
     }
 }

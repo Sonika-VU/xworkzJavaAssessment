@@ -7,28 +7,33 @@ public class WaterHeater extends  Appliance{
         System.out.println("no-arg const of WaterHeater");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in WaterHeater");
     }
 
-    {
-        super.adjustSettings();
+    @Override
+    public void adjustSettings(){
+//        super.adjustSettings();
         System.out.println("Running adjustSettings in WaterHeater");
     }
 
-    {
-        super.showStatus();
+    @Override
+    public void showStatus(){
+//        super.showStatus();
         System.out.println("Running showStatus in WaterHeater");
     }
 
-    {
-        super.scheduleTask();
+    @Override
+    public void scheduleTask(){
+//        super.scheduleTask();
         System.out.println("Running scheduleTask in WaterHeater");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in WaterHeater");
     }
 }

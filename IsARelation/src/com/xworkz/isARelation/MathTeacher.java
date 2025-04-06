@@ -6,28 +6,33 @@ public class MathTeacher extends Teacher {
         System.out.println("no-arg const of MathTeacher");
     }
 
-    {
-        super.teach();
+    @Override
+    public void teach(){
+//        super.teach();
         System.out.println("Running teach in MathTeacher");
     }
 
-    {
-        super.assignHomework();
+    @Override
+    public void assignHomework(){
+//        super.assignHomework();
         System.out.println("Running assignHomework in MathTeacher");
     }
 
-    {
-        super.gradePapers();
+    @Override
+    public void gradePapers(){
+//        super.gradePapers();
         System.out.println("Running gradePapers in MathTeacher");
     }
 
-    {
-        super.conductExam();
+    @Override
+    public void conductExam(){
+//        super.conductExam();
         System.out.println("Running conductExam in MathTeacher");
     }
 
-    {
-        super.attendMeeting();
+    @Override
+    public void attendMeeting(){
+//        super.attendMeeting();
         System.out.println("Running attendMeeting in MathTeacher");
     }
 }

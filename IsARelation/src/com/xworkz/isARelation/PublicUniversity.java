@@ -6,28 +6,33 @@ public class PublicUniversity extends University {
         System.out.println("no-arg constructor of PublicUniversity");
     }
 
-    {
-        super.conductLectures();
+    @Override
+    public void conductLectures(){
+//        super.conductLectures();
         System.out.println("Providing affordable education in Public University");
     }
 
-    {
-        super.organizeSeminars();
+    @Override
+    public void organizeSeminars(){
+//        super.organizeSeminars();
         System.out.println("Organizing free academic seminars in Public University");
     }
 
-    {
-        super.conductResearch();
+    @Override
+    public void conductResearch(){
+//        super.conductResearch();
         System.out.println("Conducting government-funded research in Public University");
     }
 
-    {
-        super.provideScholarships();
+    @Override
+    public void provideScholarships(){
+//        super.provideScholarships();
         System.out.println("Offering scholarships to financially weaker students in Public University");
     }
 
-    {
-        super.offerCourses();
+    @Override
+    public void offerCourses(){
+//        super.offerCourses();
         System.out.println("Providing a wide range of courses in Public University");
     }
 }

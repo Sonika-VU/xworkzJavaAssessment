@@ -6,28 +6,33 @@ public class SlidingWindow extends Window {
         System.out.println("no-arg const of SlidingWindow");
     }
 
-    {
-        super.open();
+    @Override
+    public void open(){
+//        super.open();
         System.out.println("Sliding open in SlidingWindow");
     }
 
-    {
-        super.close();
+    @Override
+    public void close(){
+//        super.close();
         System.out.println("Sliding close in SlidingWindow");
     }
 
-    {
-        super.allowVentilation();
+    @Override
+    public void allowVentilation(){
+//        super.allowVentilation();
         System.out.println("Better ventilation in SlidingWindow");
     }
 
-    {
-        super.provideView();
+    @Override
+    public void provideView(){
+//        super.provideView();
         System.out.println("Wide outside view in SlidingWindow");
     }
 
-    {
-        super.protectFromWeather();
+    @Override
+    public void protectFromWeather(){
+//        super.protectFromWeather();
         System.out.println("Better insulation in SlidingWindow");
     }
 }

@@ -1,33 +1,40 @@
 package com.xworkz.isARelation;
 
+import java.lang.annotation.Documented;
+
 public class SmartTV extends Television {
     public SmartTV() {
         super();
         System.out.println("no-arg const of SmartTV");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in SmartTV");
     }
 
-    {
-        super.changeChannel();
+    @Override
+    public void changeChannel(){
+//        super.changeChannel();
         System.out.println("Running changeChannel in SmartTV");
     }
 
-    {
-        super.increaseVolume();
+    @Override
+    public void increaseVolume(){
+//        super.increaseVolume();
         System.out.println("Running increaseVolume in SmartTV");
     }
 
-    {
+    @Override
+    public void decreaseVolume(){
         super.decreaseVolume();
         System.out.println("Running decreaseVolume in SmartTV");
     }
 
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in SmartTV");
     }
 }

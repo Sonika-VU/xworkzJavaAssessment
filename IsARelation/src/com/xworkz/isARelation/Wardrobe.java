@@ -6,20 +6,33 @@ public class Wardrobe extends Furniture {
         System.out.println("no-arg const of Wardrobe");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble() {
+//        super.assemble();
         System.out.println("Assembling wardrobe compartments");
+    }
 
-        super.disassemble();
+    @Override
+    public void disassemble() {
+//        super.disassemble();
         System.out.println("Wardrobe taken apart for relocation");
+    }
 
-        super.clean();
+    @Override
+    public void clean() {
+//        super.clean();
         System.out.println("Cleaning wardrobe shelves");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Moving wardrobe to guest room");
+    }
 
-        super.paint();
+    @Override
+    public void paint(){
+//        super.paint();
         System.out.println("Painting wardrobe in white");
     }
 }

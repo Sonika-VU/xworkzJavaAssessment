@@ -6,20 +6,32 @@ public class Tulip extends Flower {
         System.out.println("no-arg const of Tulip");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Tulips are used for garden decoration");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Tulips are rarely used in garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Tulips provide nectar for insects");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Tulip petals fall after blooming");
-
-        super.makeDrinks();
+    }
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Tulip petals can be used for herbal drinks");
     }
 }

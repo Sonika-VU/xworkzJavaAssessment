@@ -1,6 +1,4 @@
-package com.xworkz.isARelation.Runner;
-
-import com.xworkz.isARelation.Game;
+package com.xworkz.isARelation;
 
 public class VideoGame extends Game {
     public VideoGame(){

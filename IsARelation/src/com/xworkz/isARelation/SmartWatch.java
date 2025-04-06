@@ -7,28 +7,33 @@ public class SmartWatch extends Watch {
         System.out.println("no-arg const of SmartWatch");
     }
 
-    {
-        super.showTime();
+    @Override
+    public void showTime(){
+//        super.showTime();
         System.out.println("Running showTime in SmartWatch");
     }
 
-    {
-        super.setAlarm();
+    @Override
+    public void setAlarm(){
+//        super.setAlarm();
         System.out.println("Running setAlarm in SmartWatch");
     }
 
-    {
-        super.hangOnWall();
+    @Override
+    public void hangOnWall(){
+//        super.hangOnWall();
         System.out.println("Running hangOnWall in SmartWatch");
     }
 
-    {
-        super.tieOnWrist();
+    @Override
+    public void tieOnWrist(){
+//        super.tieOnWrist();
         System.out.println("Running tieOnWrist in SmartWatch");
     }
 
-    {
-        super.checkPulseRate();
+    @Override
+    public void checkPulseRate(){
+//        super.checkPulseRate();
         System.out.println("Running checkPulseRate in SmartWatch");
     }
 }

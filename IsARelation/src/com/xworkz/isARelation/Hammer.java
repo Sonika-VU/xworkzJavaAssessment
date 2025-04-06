@@ -7,27 +7,33 @@ public class Hammer extends Tool {
         System.out.println("no-arg const of Hammer");
     }
 
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
+//        super.turnOn();
         System.out.println("Running turnOn in Hammer");
     }
 
-    {
-        super.use();
+    @Override
+    public void use(){
+//        super.use();
         System.out.println("Running use in Hammer");
     }
 
-    {
-        super.beat();
+    @Override
+    public void beat(){
+//        super.beat();
         System.out.println("Running beat in Hammer");
     }
 
-    {
-        super.hold();
+    @Override
+    public void hold(){
+//        super.hold();
         System.out.println("Running hold in Hammer");
     }
-    {
-        super.turnOff();
+
+    @Override
+    public void turnOff(){
+//        super.turnOff();
         System.out.println("Running turnOff in Hammer");
     }
 

@@ -6,28 +6,33 @@ public class IPad extends Tablet {
         System.out.println("no-arg const of iPad");
     }
 
-    {
-        super.browseInternet();
+    @Override
+    public void browseInternet(){
+//        super.browseInternet();
         System.out.println("Running browseInternet in iPad");
     }
 
-    {
-        super.watchVideo();
+    @Override
+    public void watchVideo(){
+//        super.watchVideo();
         System.out.println("Running watchVideo in iPad");
     }
 
-    {
-        super.takeNotes();
+    @Override
+    public void takeNotes(){
+//        super.takeNotes();
         System.out.println("Running takeNotes in iPad");
     }
 
-    {
-        super.playGames();
+    @Override
+    public void playGames(){
+//        super.playGames();
         System.out.println("Running playGames in iPad");
     }
 
-    {
-        super.readEbooks();
+    @Override
+    public void readEbooks(){
+//        super.readEbooks();
         System.out.println("Running readEbooks in iPad");
     }
 }
