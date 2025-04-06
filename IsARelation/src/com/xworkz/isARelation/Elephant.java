@@ -6,20 +6,33 @@ public class Elephant extends Animal {
         System.out.println("no-arg const of Elephant");
     }
 
-    {
-        super.eat();
+    @Override
+    public  void eat() {
+//        super.eat();
         System.out.println("Elephant is eating bananas");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Elephant is sleeping while standing");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Elephant is trumpeting");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Elephant is walking slowly");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Elephant is taking deep breaths");
     }
 }

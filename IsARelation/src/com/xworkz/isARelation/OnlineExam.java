@@ -6,28 +6,33 @@ public class OnlineExam extends Exam {
         System.out.println("no-arg constructor of OnlineExam");
     }
 
-    {
-        super.startExam();
+    @Override
+    public void startExam(){
+//        super.startExam();
         System.out.println("Starting Online Exam through web portal");
     }
 
-    {
-        super.submitAnswer();
+    @Override
+    public void submitAnswer(){
+//        super.submitAnswer();
         System.out.println("Submitting answer digitally in Online Exam");
     }
 
-    {
-        super.checkResult();
+    @Override
+    public void checkResult(){
+//        super.checkResult();
         System.out.println("Checking Online Exam result on website");
     }
 
-    {
-        super.reviewQuestions();
+    @Override
+    public void reviewQuestions(){
+//        super.reviewQuestions();
         System.out.println("Reviewing Online Exam questions digitally");
     }
 
-    {
-        super.endExam();
+    @Override
+    public void endExam(){
+//        super.endExam();
         System.out.println("Ending Online Exam automatically after time limit");
     }
 }
