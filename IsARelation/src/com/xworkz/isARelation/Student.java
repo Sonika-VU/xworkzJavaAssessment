@@ -7,28 +7,33 @@ public class Student extends Person{
         System.out.println("no-arg const of Student");
     }
 
-    {
-        super.walk();
+    @Override
+    public void walk(){
+//        super.walk();
         System.out.println("Running walk in Student");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat(){
+//        super.eat();
         System.out.println("Running eat in Student");
     }
 
-    {
-        super.sleep();
+    @Override
+    public void sleep(){
+//        super.sleep();
         System.out.println("Running sleep in Student");
     }
 
-    {
-        super.doWork();
+    @Override
+    public void doWork(){
+//        super.doWork();
         System.out.println("Running doWork in Student");
     }
 
-    {
-        super.talk();
+    @Override
+    public void talk(){
+//        super.talk();
         System.out.println("Running talk in Student");
     }
 }

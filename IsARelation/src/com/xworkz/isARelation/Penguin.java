@@ -6,20 +6,33 @@ public class Penguin extends Animal {
         System.out.println("no-arg const of Penguin");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Penguin is eating fish");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Penguin is sleeping while standing");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Penguin is making a honking sound");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Penguin is waddling on ice");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Penguin is breathing in cold air");
     }
 }

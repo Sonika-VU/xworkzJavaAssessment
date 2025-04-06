@@ -6,28 +6,33 @@ public class Earth extends Planet {
         System.out.println("no-arg const of Earth");
     }
 
-    {
-        super.rotate();
+    @Override
+    public void rotate(){
+//        super.rotate();
         System.out.println("Running rotate in Earth");
     }
 
-    {
-        super.revolve();
+    @Override
+    public void revolve(){
+//        super.revolve();
         System.out.println("Running revolve in Earth");
     }
 
-    {
-        super.supportLife();
+    @Override
+    public void supportLife(){
+//        super.supportLife();
         System.out.println("Running supportLife in Earth");
     }
 
-    {
-        super.hasAtmosphere();
+    @Override
+    public void hasAtmosphere(){
+//        super.hasAtmosphere();
         System.out.println("Running hasAtmosphere in Earth");
     }
 
-    {
-        super.hasGravity();
+    @Override
+    public void hasGravity(){
+//        super.hasGravity();
         System.out.println("Running hasGravity in Earth");
     }
 }

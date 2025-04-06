@@ -7,28 +7,32 @@ public class HumanoidRobot extends  Robot{
         System.out.println("no-arg const of HumanoidRobot");
     }
 
-    {
-        super.lift();
+    @Override
+    public void lift(){
+//        super.lift();
         System.out.println("Running lift in HumanoidRobot");
     }
 
-    {
-        super.work();
+    @Override
+    public void work(){
+//        super.work();
         System.out.println("Running work in HumanoidRobot");
     }
 
-    {
-        super.displaceThings();
+    @Override
+    public void displaceThings(){
+//        super.displaceThings();
         System.out.println("Running displaceThings in HumanoidRobot");
     }
 
-    {
-        super.construct();
+    @Override
+    public void construct(){
+//        super.construct();
         System.out.println("Running construct in HumanoidRobot");
     }
 
-    {
-        super.assemble();
+    public void assemble(){
+//        super.assemble();
         System.out.println("Running assemble in HumanoidRobot");
     }
 

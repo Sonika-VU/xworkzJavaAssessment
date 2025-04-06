@@ -6,20 +6,33 @@ public class Marigold extends Flower {
         System.out.println("no-arg const of Marigold");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Marigold is widely used for decoration");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Marigold is commonly used in garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar() {
+//        super.provideNectar();
         System.out.println("Marigold attracts bees and butterflies");
+    }
 
-        super.fell();
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Marigold petals fall when dried");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Marigold extracts are used in herbal teas");
     }
 }

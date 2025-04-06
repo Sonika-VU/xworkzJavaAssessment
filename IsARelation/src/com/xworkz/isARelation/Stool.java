@@ -6,20 +6,33 @@ public class Stool extends Furniture {
         System.out.println("no-arg const of Stool");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble() {
+//        super.assemble();
         System.out.println("Fixing stool legs to the seat");
+    }
 
-        super.disassemble();
+    @Override
+    public void disassemble() {
+//        super.disassemble();
         System.out.println("Removing stool legs for easy storage");
+    }
 
-        super.clean();
+    @Override
+    public void clean() {
+//        super.clean();
         System.out.println("Wiping stool surface");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Stool moved to kitchen");
+    }
 
-        super.paint();
+    @Override
+    public void paint(){
+//        super.paint();
         System.out.println("Painting stool in brown");
     }
 }

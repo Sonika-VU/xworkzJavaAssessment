@@ -6,20 +6,34 @@ public class Monkey extends Animal {
         System.out.println("no-arg const of Monkey");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Monkey is eating bananas");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Monkey is sleeping on a tree");
 
-        super.makeSound();
+    }
+
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Monkey is chattering");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Monkey is swinging on branches");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Monkey is breathing actively");
     }
 }

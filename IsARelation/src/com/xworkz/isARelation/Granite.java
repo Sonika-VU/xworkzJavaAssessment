@@ -6,28 +6,33 @@ public class Granite extends Rock {
         System.out.println("no-arg const of Granite");
     }
 
-    {
-        super.formNaturally();
+    @Override
+    public void formNaturally(){
+//        super.formNaturally();
         System.out.println("Running formNaturally in Granite");
     }
 
-    {
-        super.provideMinerals();
+    @Override
+    public void provideMinerals(){
+//        super.provideMinerals();
         System.out.println("Running provideMinerals in Granite");
     }
 
-    {
-        super.withstandWeather();
+    @Override
+    public void withstandWeather(){
+//        super.withstandWeather();
         System.out.println("Running withstandWeather in Granite");
     }
 
-    {
-        super.supportStructures();
+    @Override
+    public void supportStructures(){
+//        super.supportStructures();
         System.out.println("Running supportStructures in Granite");
     }
 
-    {
-        super.appearInDifferentShapes();
+    @Override
+    public void appearInDifferentShapes(){
+//        super.appearInDifferentShapes();
         System.out.println("Running appearInDifferentShapes in Granite");
     }
 }

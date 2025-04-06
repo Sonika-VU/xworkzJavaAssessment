@@ -6,28 +6,33 @@ public class AmazonRiver extends River {
         System.out.println("no-arg const of AmazonRiver");
     }
 
-    {
-        super.flow();
+    @Override
+    public void flow(){
+//        super.flow();
         System.out.println("Running flow in AmazonRiver");
     }
 
-    {
-        super.provideWater();
+    @Override
+    public void provideWater(){
+//        super.provideWater();
         System.out.println("Running provideWater in AmazonRiver");
     }
 
-    {
-        super.supportLife();
+    @Override
+    public void supportLife(){
+//        super.supportLife();
         System.out.println("Running supportLife in AmazonRiver");
     }
 
-    {
-        super.createValleys();
+    @Override
+    public void createValleys(){
+//        super.createValleys();
         System.out.println("Running createValleys in AmazonRiver");
     }
 
-    {
-        super.generateHydroPower();
+    @Override
+    public void generateHydroPower(){
+//        super.generateHydroPower();
         System.out.println("Running generateHydroPower in AmazonRiver");
     }
 }

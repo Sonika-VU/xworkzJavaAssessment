@@ -6,20 +6,34 @@ public class Sunflower extends Flower {
         System.out.println("no-arg const of Sunflower");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate() {
+//        super.decorate();
         System.out.println("Sunflower is used for home decoration");
+    }
 
-        super.garland();
+    @Override
+    public void garland() {
+//        super.garland();
         System.out.println("Sunflowers are used in bouquets, not garlands");
+    }
 
-        super.provideNectar();
+    @Override
+    public void provideNectar(){
+//        super.provideNectar();
         System.out.println("Sunflower provides nectar for bees");
+    }
 
-        super.fell();
+
+    @Override
+    public void fell() {
+//        super.fell();
         System.out.println("Sunflower petals fall in dry climates");
+    }
 
-        super.makeDrinks();
+    @Override
+    public void makeDrinks(){
+//        super.makeDrinks();
         System.out.println("Sunflower seeds are used in herbal teas");
     }
 }

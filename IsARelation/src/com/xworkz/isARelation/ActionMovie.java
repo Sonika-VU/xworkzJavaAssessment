@@ -7,27 +7,33 @@ public class ActionMovie extends Movie{
         System.out.println("no-arg const of ActionMovie");
     }
 
-    {
-        super.direct();
+    @Override
+    public void direct(){
+//        super.direct();
         System.out.println("Running direct in ActionMovie");
     }
 
-    {
-        super.produce();
+    @Override
+    public void produce(){
+//        super.produce();
         System.out.println("Running produce in ActionMovie");
     }
 
-    {
-        super.act();
+    @Override
+    public void act(){
+//        super.act();
         System.out.println("Running act in ActionMovie");
     }
 
-    {
-        super.composeSong();
+    @Override
+    public void composeSong(){
+//        super.composeSong();
         System.out.println("Running composeSong in ActionMovie");
     }
-    {
-        super.telecast();
+
+    @Override
+    public void telecast(){
+//        super.telecast();
         System.out.println("Running telecast in ActionMovie");
     }
 

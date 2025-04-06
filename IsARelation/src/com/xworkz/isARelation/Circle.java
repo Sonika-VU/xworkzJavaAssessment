@@ -6,28 +6,33 @@ public class Circle extends Shape {
         System.out.println("no-arg const of Circle");
     }
 
-    {
-        super.draw();
+    @Override
+    public void draw(){
+//        super.draw();
         System.out.println("Running draw in Circle");
     }
 
-    {
-        super.calculateArea();
+    @Override
+    public void calculateArea(){
+//        super.calculateArea();
         System.out.println("Running calculateArea in Circle");
     }
 
-    {
-        super.calculatePerimeter();
+    @Override
+    public void calculatePerimeter(){
+//        super.calculatePerimeter();
         System.out.println("Running calculatePerimeter in Circle");
     }
 
-    {
-        super.fillColor();
+    @Override
+    public void fillColor(){
+//        super.fillColor();
         System.out.println("Running fillColor in Circle");
     }
 
-    {
-        super.resize();
+    @Override
+    public void resize(){
+//        super.resize();
         System.out.println("Running resize in Circle");
     }
 }

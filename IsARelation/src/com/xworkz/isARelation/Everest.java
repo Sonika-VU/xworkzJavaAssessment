@@ -6,27 +6,32 @@ public class Everest extends Mountain {
         System.out.println("no-arg const of Everest");
     }
 
-    {
-        super.riseAboveLand();
+    @Override
+    public void riseAboveLand(){
+//        super.riseAboveLand();
         System.out.println("Running riseAboveLand in Everest");
     }
 
-    {
-        super.supportEcosystems();
+    @Override
+    public void supportEcosystems(){
+//        super.supportEcosystems();
         System.out.println("Running supportEcosystems in Everest");
     }
 
-    {
-        super.containMinerals();
+    @Override
+    public void containMinerals(){
+//        super.containMinerals();
         System.out.println("Running containMinerals in Everest");
     }
 
-    {
-        super.affectWeather();
+    @Override
+    public void affectWeather(){
+//        super.affectWeather();
         System.out.println("Running affectWeather in Everest");
     }
 
-    {
+    @Override
+    public void attractTourists(){
         super.attractTourists();
         System.out.println("Running attractTourists in Everest");
     }

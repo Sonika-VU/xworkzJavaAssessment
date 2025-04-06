@@ -7,28 +7,33 @@ public class NoticeBoard extends Poster{
         System.out.println("no-arg const of NoticeBoard");
     }
 
-    {
-        super.write();
+    @Override
+    public void write(){
+//        super.write();
         System.out.println("Running write in NoticeBoard");
     }
 
-    {
-        super.display();
+    @Override
+    public void display(){
+//        super.display();
         System.out.println("Running display in NoticeBoard");
     }
 
-    {
-        super.print();
+    @Override
+    public void print(){
+//        super.print();
         System.out.println("Running print in NoticeBoard");
     }
 
-    {
-        super.stick();
+    @Override
+    public void stick(){
+//        super.stick();
         System.out.println("Running stick in NoticeBoard");
     }
 
-    {
-        super.share();
+    @Override
+    public void share(){
+//        super.share();
         System.out.println("Running share in NoticeBoard");
     }
 }

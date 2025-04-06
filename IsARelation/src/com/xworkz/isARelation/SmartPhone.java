@@ -6,28 +6,33 @@ public class SmartPhone extends Mobile {
         System.out.println("no-arg const of SmartPhone");
     }
 
-    {
-        super.makeCall();
+    @Override
+    public void makeCall(){
+//        super.makeCall();
         System.out.println("Running makeCall in SmartPhone");
     }
 
-    {
-        super.sendSMS();
+    @Override
+    public void sendSMS(){
+//        super.sendSMS();
         System.out.println("Running sendSMS in SmartPhone");
     }
 
-    {
-        super.sendSMS();
+    @Override
+    public void playGame(){
+//        super.sendSMS();
         System.out.println("Running playGame in SmartPhone");
     }
 
-    {
-        super.capturePhoto();
+    @Override
+    public void capturePhoto(){
+//        super.capturePhoto();
         System.out.println("Running capturePhoto in SmartPhone");
     }
 
-    {
-        super.setAlarm();
+    @Override
+    public void setAlarm(){
+//        super.setAlarm();
         System.out.println("Running setAlarm in SmartPhone");
     }
 }

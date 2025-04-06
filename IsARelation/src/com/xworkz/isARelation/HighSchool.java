@@ -6,28 +6,33 @@ public class HighSchool extends School {
         System.out.println("no-arg constructor of HighSchool");
     }
 
-    {
-        super.conductClasses();
+    @Override
+    public void conductClasses(){
+//        super.conductClasses();
         System.out.println("Teaching advanced subjects in High School");
     }
 
-    {
-        super.organizeSports();
+    @Override
+    public void organizeSports(){
+//        super.organizeSports();
         System.out.println("Organizing High School sports tournaments");
     }
 
-    {
-        super.takeExams();
+    @Override
+    public void takeExams(){
+//        super.takeExams();
         System.out.println("Conducting board exams in High School");
     }
 
-    {
-        super.manageLibrary();
+    @Override
+    public void manageLibrary(){
+//        super.manageLibrary();
         System.out.println("Expanding library collection in High School");
     }
 
-    {
-        super.celebrateEvents();
+    @Override
+    public void celebrateEvents(){
+//        super.celebrateEvents();
         System.out.println("Hosting graduation ceremony in High School");
     }
 }

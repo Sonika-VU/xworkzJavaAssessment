@@ -6,28 +6,33 @@ public class Jio extends Reliance{
         System.out.println("no-arg const of Jio");
     }
 
-    {
-        super.constructOffice();
+    @Override
+    public void constructOffice(){
+//        super.constructOffice();
         System.out.println("Running constructOffice in Jio");
     }
 
-    {
-        super.getEmployees();
+    @Override
+    public void getEmployees(){
+//        super.getEmployees();
         System.out.println("Running getEmployees in Jio");
     }
 
-    {
-        super.setSalary();
+    @Override
+    public void setSalary(){
+//        super.setSalary();
         System.out.println("Running setSalary in Jio");
     }
 
-    {
-        super.advertise();
+    @Override
+    public void advertise(){
+//        super.advertise();
         System.out.println("Running advertise in Jio");
     }
 
-    {
-        super.setGoals();
+    @Override
+    public void setGoals(){
+//        super.setGoals();
         System.out.println("Running setGoals in Jio");
     }
 

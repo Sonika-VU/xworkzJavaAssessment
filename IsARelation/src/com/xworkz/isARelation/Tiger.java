@@ -6,28 +6,33 @@ public class Tiger extends Mammal {
         System.out.println("no-arg const of Tiger");
     }
 
-    {
-        super.walk();
+    @Override
+    public void walk(){
+//        super.walk();
         System.out.println("Running walk in Tiger");
     }
 
-    {
-        super.giveBirth();
+    @Override
+    public void giveBirth(){
+//        super.giveBirth();
         System.out.println("Running giveBirth in Tiger");
     }
 
-    {
-        super.drinkMilk();
+    @Override
+    public void drinkMilk(){
+//        super.drinkMilk();
         System.out.println("Running drinkMilk in Tiger");
     }
 
-    {
-        super.communicate();
+    @Override
+    public void communicate(){
+//        super.communicate();
         System.out.println("Running communicate in Tiger");
     }
 
-    {
-        super.hunt();
+    @Override
+    public void hunt(){
+//        super.hunt();
         System.out.println("Running hunt in Tiger");
     }
 }
