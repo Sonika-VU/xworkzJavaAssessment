@@ -6,20 +6,35 @@ public class Cabinet extends Furniture {
         System.out.println("no-arg const of Cabinet");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble() {
+//        super.assemble();
         System.out.println("Fixing cabinet doors and shelves");
+    }
 
-        super.disassemble();
+
+    @Override
+    public void disassemble() {
+//        super.disassemble();
         System.out.println("Disassembling cabinet for shifting");
+    }
 
-        super.clean();
+    @Override
+    public void clean() {
+//        super.clean();
         System.out.println("Dusting and polishing cabinet surface");
+    }
 
-        super.move();
+
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Moving cabinet to the storage room");
+    }
 
-        super.paint();
+    @Override
+    public void paint(){
+//        super.paint();
         System.out.println("Painting cabinet with a dark finish");
     }
 }

@@ -6,28 +6,33 @@ public class Dollar extends Currency {
         System.out.println("no-arg const of Dollar");
     }
 
-    {
-        super.exchange();
+    @Override
+    public void exchange(){
+//        super.exchange();
         System.out.println("Exchanging Dollar");
     }
 
-    {
-        super.checkValue();
+    @Override
+    public void checkValue(){
+//        super.checkValue();
         System.out.println("Checking Dollar value");
     }
 
-    {
-        super.useForPayment();
+    @Override
+    public void useForPayment(){
+//        super.useForPayment();
         System.out.println("Using Dollar for payments");
     }
 
-    {
-        super.deposit();
+    @Override
+    public void deposit(){
+//        super.deposit();
         System.out.println("Depositing Dollar in bank");
     }
 
-    {
-        super.withdraw();
+    @Override
+    public void withdraw(){
+//        super.withdraw();
         System.out.println("Withdrawing Dollar from ATM");
     }
 }

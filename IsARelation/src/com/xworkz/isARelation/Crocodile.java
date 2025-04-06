@@ -6,20 +6,33 @@ public class Crocodile extends Animal {
         System.out.println("no-arg const of Crocodile");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Crocodile is eating its prey");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Crocodile is sleeping on the riverbank");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Crocodile is hissing");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Crocodile is swimming in water");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Crocodile is breathing through its nostrils above water");
     }
 }

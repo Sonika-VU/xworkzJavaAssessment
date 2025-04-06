@@ -6,28 +6,33 @@ public class VisaCard extends CreditCard {
         System.out.println("no-arg const of VisaCard");
     }
 
-    {
-        super.makePayment();
+    @Override
+    public void makePayment(){
+//        super.makePayment();
         System.out.println("Making secure Visa payment");
     }
 
-    {
-        super.checkBalance();
+    @Override
+    public void checkBalance(){
+//        super.checkBalance();
         System.out.println("Checking Visa card balance");
     }
 
-    {
-        super.withdrawCash();
+    @Override
+    public void withdrawCash(){
+//        super.withdrawCash();
         System.out.println("Visa card ATM withdrawal");
     }
 
-    {
+    @Override
+    public void earnRewards(){
         super.earnRewards();
         System.out.println("Earning Visa rewards points");
     }
 
-    {
-        super.payBill();
+    @Override
+    public void payBill(){
+//        super.payBill();
         System.out.println("Paying Visa card bill");
     }
 }

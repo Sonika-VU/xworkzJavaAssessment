@@ -7,28 +7,33 @@ public class ITComapany extends Company{
         System.out.println("no-arg const of ITCompany");
     }
 
-    {
-        super.hireEmployee();
+    @Override
+    public void hireEmployee(){
+//        super.hireEmployee();
         System.out.println("Running hireEmployee in Company");
     }
 
-    {
-        super.paySalary();
+    @Override
+    public void paySalary(){
+//        super.paySalary();
         System.out.println("Running paySalary in Company");
     }
 
-    {
-        super.conductMeeting();
+    @Override
+    public void conductMeeting(){
+//        super.conductMeeting();
         System.out.println("Running conductMeeting in Company");
     }
 
-    {
-        super.releaseProduct();
+    @Override
+    public void releaseProduct(){
+//        super.releaseProduct();
         System.out.println("Running releaseProduct in Company");
     }
 
-    {
-        super.handleClient();
+    @Override
+    public void handleClient(){
+//        super.handleClient();
         System.out.println("Running handleClient in Company");
     }
 }

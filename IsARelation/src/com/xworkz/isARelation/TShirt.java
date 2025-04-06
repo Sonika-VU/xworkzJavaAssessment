@@ -6,30 +6,35 @@ public class TShirt extends Clothing{
         super();
         System.out.println("no-arg const of TShirt");
     }
-    {
-        super.stitch();
+
+    @Override
+    public void stitch(){
+//        super.stitch();
         System.out.println("Running stitch in TShirt");
 
     }
 
-
-    {
-        super.wear();
+    @Override
+    public void wear(){
+//        super.wear();
         System.out.println("Running wear in TShirt");
     }
 
-    {
-        super.tear();
+    @Override
+    public void tear(){
+//        super.tear();
         System.out.println("Running tear in TShirt");
     }
 
-    {
-        super.giftIt();
+    @Override
+    public void giftIt(){
+//        super.giftIt();
         System.out.println("Running giftIt in TShirt");
     }
 
-    {
-        super.wash();
+    @Override
+    public void wash(){
+//        super.wash();
         System.out.println("Running wash in TShirt");
     }
 

@@ -6,20 +6,33 @@ public class Cat extends Animal {
         System.out.println("no-arg const of Cat");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Cat is eating fish");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Cat is sleeping on the sofa");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Cat is meowing");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Cat is jumping");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Cat is breathing normally");
     }
 }

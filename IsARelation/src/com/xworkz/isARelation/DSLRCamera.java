@@ -6,28 +6,33 @@ public class DSLRCamera extends Camera {
         System.out.println("no-arg const of DSLRCamera");
     }
 
-    {
-        super.capturePhoto();
+    @Override
+    public void capturePhoto(){
+//        super.capturePhoto();
         System.out.println("Running capturePhoto in DSLRCamera");
     }
 
-    {
-        super.recordVideo();
+    @Override
+    public void recordVideo(){
+//        super.recordVideo();
         System.out.println("Running recordVideo in DSLRCamera");
     }
 
-    {
-        super.zoomIn();
+    @Override
+    public void zoomIn(){
+//        super.zoomIn();
         System.out.println("Running zoomIn in DSLRCamera");
     }
 
-    {
-        super.zoomOut();
+    @Override
+    public void zoomOut(){
+//        super.zoomOut();
         System.out.println("Running zoomOut in DSLRCamera");
     }
 
-    {
-        super.adjustFocus();
+    @Override
+    public void adjustFocus(){
+//        super.adjustFocus();
         System.out.println("Running adjustFocus in DSLRCamera");
     }
 }
