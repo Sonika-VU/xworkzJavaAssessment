@@ -6,20 +6,33 @@ public class Deer extends Animal {
         System.out.println("no-arg const of Deer");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat() {
+//        super.eat();
         System.out.println("Deer is eating grass");
+    }
 
-        super.sleep();
+    @Override
+    public void sleep() {
+//        super.sleep();
         System.out.println("Deer is sleeping in the woods");
+    }
 
-        super.makeSound();
+    @Override
+    public void makeSound() {
+//        super.makeSound();
         System.out.println("Deer is making a soft bleating sound");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Deer is running gracefully");
+    }
 
-        super.breathe();
+    @Override
+    public void breathe(){
+//        super.breathe();
         System.out.println("Deer is breathing calmly");
     }
 }

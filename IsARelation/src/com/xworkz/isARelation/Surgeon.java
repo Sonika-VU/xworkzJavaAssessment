@@ -6,28 +6,33 @@ public class Surgeon extends Doctor {
         System.out.println("no-arg const of Surgeon");
     }
 
-    {
-        super.diagnose();
+    @Override
+    public void diagnose(){
+//        super.diagnose();
         System.out.println("Running diagnose in Surgeon");
     }
 
-    {
-        super.prescribeMedicine();
+    @Override
+    public void prescribeMedicine(){
+//        super.prescribeMedicine();
         System.out.println("Running prescribeMedicine in Surgeon");
     }
 
-    {
-        super.checkVitals();
+    @Override
+    public void checkVitals(){
+//        super.checkVitals();
         System.out.println("Running checkVitals in Surgeon");
     }
 
-    {
-        super.conductCheckup();
+    @Override
+    public void conductCheckup(){
+//        super.conductCheckup();
         System.out.println("Running conductCheckup in Surgeon");
     }
 
-    {
-        super.giveAdvice();
+    @Override
+    public void giveAdvice(){
+//        super.giveAdvice();
         System.out.println("Running giveAdvice in Surgeon");
     }
 }

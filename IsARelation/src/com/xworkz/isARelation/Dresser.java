@@ -6,20 +6,33 @@ public class Dresser extends Furniture {
         System.out.println("no-arg const of Dresser");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble() {
+//        super.assemble();
         System.out.println("Attaching dresser drawers and mirror");
+    }
 
-        super.disassemble();
+    @Override
+    public void disassemble() {
+//        super.disassemble();
         System.out.println("Disassembling dresser for easy moving");
+    }
 
-        super.clean();
+    @Override
+    public void clean() {
+//        super.clean();
         System.out.println("Cleaning dresser with wood polish");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Moving dresser to the bedroom");
+    }
 
-        super.paint();
+    @Override
+    public void paint(){
+//        super.paint();
         System.out.println("Painting dresser with a fresh coat");
     }
 }

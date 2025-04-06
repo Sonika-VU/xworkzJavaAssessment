@@ -6,20 +6,33 @@ public class Desk extends Furniture {
         System.out.println("no-arg const of Desk");
     }
 
-    {
-        super.assemble();
+    @Override
+    public void assemble() {
+//        super.assemble();
         System.out.println("Assembling desk with drawers and surface");
+    }
 
+    @Override
+    public void disassemble() {
         super.disassemble();
         System.out.println("Disassembling desk for transportation");
+    }
 
-        super.clean();
+    @Override
+    public void clean() {
+//        super.clean();
         System.out.println("Cleaning desk with a dry cloth");
+    }
 
-        super.move();
+    @Override
+    public void move() {
+//        super.move();
         System.out.println("Moving desk to study room");
+    }
 
-        super.paint();
+    @Override
+    public  void paint(){
+//        super.paint();
         System.out.println("Painting desk with a smooth finish");
     }
 }

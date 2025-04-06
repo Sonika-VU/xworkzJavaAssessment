@@ -6,28 +6,33 @@ public class WoodenDoor extends Door {
         System.out.println("no-arg const of WoodenDoor");
     }
 
-    {
-        super.open();
+    @Override
+    public void open(){
+//        super.open();
         System.out.println("Running open in WoodenDoor");
     }
 
-    {
-        super.close();
+    @Override
+    public void close(){
+//        super.close();
         System.out.println("Running close in WoodenDoor");
     }
 
-    {
-        super.lock();
+    @Override
+    public void lock(){
+//        super.lock();
         System.out.println("Running lock in WoodenDoor");
     }
 
-    {
-        super.unlock();
+    @Override
+    public void unlock(){
+//        super.unlock();
         System.out.println("Running unlock in WoodenDoor");
     }
 
-    {
-        super.provideSecurity();
+    @Override
+    public void provideSecurity(){
+//        super.provideSecurity();
         System.out.println("Running provideSecurity in WoodenDoor");
     }
 }
