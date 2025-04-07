@@ -36,4 +36,8 @@ public class MyGlamm extends LipStick{
 //        super.giftIt();
         System.out.println("Running giftIt in LipStick");
     }
+
+    public void advertize(){
+        System.out.println("Running advertise in MyGlamm");
+    }
 }

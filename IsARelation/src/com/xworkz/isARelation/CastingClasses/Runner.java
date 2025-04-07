@@ -44,6 +44,24 @@ public class Runner {
         Carpenter carpenter = new Carpenter();
         Employee employee = new Manager();
         Infosys infosys = new Infosys();
+        Engineer engineer = new SoftwareEngineer();
+        SoftwareEmployee softwareEmployee = new SoftwareEmployee();
+        Exam exam = new OnlineExam();
+        CovidStudent covidStudent = new CovidStudent();
+        Fish fish = new Shark();
+        OceanMaintainer oceanMaintainer = new OceanMaintainer();
+        Food food = new Pizza();
+        Party party = new Party();
+        Insect insect = new Butterfly();
+        Garden garden = new Garden();
+        Instrument instrument = new Guitar();
+        Musician musician = new Musician();
+        Investment investment = new Stock();
+        Business business = new Business();
+        Lamp lamp = new FloorLamp();
+        Building building = new Building();
+        LipStick lipStick = new MyGlamm();
+        AnushkaSharma anushkaSharma = new AnushkaSharma();
 
         System.out.println("=====================================");
         dhobi.cleanClothes(washingMachine);
@@ -85,6 +103,24 @@ public class Runner {
         carpenter.makeDoor(door);
         System.out.println("=====================================");
         infosys.assignManager(employee);
+        System.out.println("=====================================");
+        softwareEmployee.work(engineer);
+        System.out.println("=====================================");
+        covidStudent.writeExam(exam);
+        System.out.println("=====================================");
+        oceanMaintainer.feed(fish);
+        System.out.println("=====================================");
+        party.enjoyFood(food);
+        System.out.println("=====================================");
+        garden.gardening(insect);
+        System.out.println("=====================================");
+        musician.sing(instrument);
+        System.out.println("=====================================");
+        business.checkStock(investment);
+        System.out.println("=====================================");
+        building.constructFloor(lamp);
+        System.out.println("=====================================");
+        anushkaSharma.applyLipstick(lipStick);
         System.out.println("=====================================");
 
 

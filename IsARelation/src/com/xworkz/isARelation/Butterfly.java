@@ -35,4 +35,8 @@ public class Butterfly extends Insect {
 //        super.feed();
         System.out.println("Running feed in Butterfly");
     }
+
+    public void getNectar(){
+        System.out.println("Running getNectar in Butterfly");
+    }
 }

@@ -35,4 +35,8 @@ public class OnlineExam extends Exam {
 //        super.endExam();
         System.out.println("Ending Online Exam automatically after time limit");
     }
+
+    public void setWebsite(){
+        System.out.println("Running setWebsite in OnlineExam");
+    }
 }

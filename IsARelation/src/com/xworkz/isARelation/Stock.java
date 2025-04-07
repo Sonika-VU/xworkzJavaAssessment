@@ -35,4 +35,8 @@ public class Stock extends Investment {
 //        super.analyzeMarket();
         System.out.println("Analyzing stock market trends");
     }
+
+    public void sellProduct(){
+        System.out.println("Running sellProduct in Stock");
+    }
 }

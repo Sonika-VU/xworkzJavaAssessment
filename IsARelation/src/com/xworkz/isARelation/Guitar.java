@@ -36,4 +36,8 @@ public class Guitar extends Instrument{
 //        super.play();
         System.out.println("Running play in Guitar");
     }
+
+    public void compose(){
+        System.out.println("Running compose in Guitar");
+    }
 }

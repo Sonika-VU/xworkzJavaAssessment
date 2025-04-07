@@ -36,4 +36,8 @@ public class Pizza extends Food{
 //        super.serve();
         System.out.println("Running serve in Pizza");
     }
+
+    public void cut(){
+        System.out.println("Running cut in Pizza");
+    }
 }

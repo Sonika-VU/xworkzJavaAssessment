@@ -35,4 +35,8 @@ public class SoftwareEngineer extends Engineer {
 //        super.testSystems();
         System.out.println("Running testSystems in SoftwareEngineer");
     }
+
+    public void debug(){
+        System.out.println("Running debug in SE");
+    }
 }

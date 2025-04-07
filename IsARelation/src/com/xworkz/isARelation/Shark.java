@@ -35,4 +35,8 @@ public class Shark extends Fish {
 //        super.hide();
         System.out.println("Running hide in Shark");
     }
+
+    public void eatFish(){
+        System.out.println("Running eatFish in Shark");
+    }
 }

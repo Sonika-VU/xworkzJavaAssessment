@@ -35,4 +35,8 @@ public class FloorLamp extends Lamp {
 //        super.haveBulb();
         System.out.println("Running haveBulb in FloorLamp");
     }
+
+    public void connectSwitch(){
+        System.out.println("Running sonnectSwitch in FloorLamp");
+    }
 }
