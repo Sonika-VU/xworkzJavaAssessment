@@ -35,4 +35,8 @@ public class Everest extends Mountain {
         super.attractTourists();
         System.out.println("Running attractTourists in Everest");
     }
+
+    public void getAir(){
+        System.out.println("Running getAir in Everest");
+    }
 }

@@ -35,4 +35,8 @@ public class Snake extends Reptile {
         super.hide();
         System.out.println("Running hide in Snake");
     }
+
+    public void drinkMilk(){
+        System.out.println("Running drinkMilk in Snake");
+    }
 }

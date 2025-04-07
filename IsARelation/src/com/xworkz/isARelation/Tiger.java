@@ -35,4 +35,8 @@ public class Tiger extends Mammal {
 //        super.hunt();
         System.out.println("Running hunt in Tiger");
     }
+
+    public void roar(){
+        System.out.println("Running roar in Tiger");
+    }
 }

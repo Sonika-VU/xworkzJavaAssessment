@@ -37,4 +37,8 @@ public class ActionMovie extends Movie{
         System.out.println("Running telecast in ActionMovie");
     }
 
+    public void addFight(){
+        System.out.println("Running addFight in ActionMovie");
+    }
+
 }

@@ -35,4 +35,8 @@ public class SmartPhone extends Mobile {
 //        super.setAlarm();
         System.out.println("Running setAlarm in SmartPhone");
     }
+
+    public void setRemainder(){
+        System.out.println("Running setRemainder in SmartPhone");
+    }
 }

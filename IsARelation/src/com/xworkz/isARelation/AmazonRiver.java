@@ -35,4 +35,8 @@ public class AmazonRiver extends River {
 //        super.generateHydroPower();
         System.out.println("Running generateHydroPower in AmazonRiver");
     }
+
+    public void getSalt(){
+        System.out.println("Running getSalt in AmazonRiver");
+    }
 }

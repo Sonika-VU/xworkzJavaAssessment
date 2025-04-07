@@ -36,4 +36,8 @@ public class NoticeBoard extends Poster{
 //        super.share();
         System.out.println("Running share in NoticeBoard");
     }
+
+    public void addMessage(){
+        System.out.println("Running addMessage in NoticeBoard");
+    }
 }

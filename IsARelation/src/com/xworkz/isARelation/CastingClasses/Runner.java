@@ -1,6 +1,7 @@
 package com.xworkz.isARelation.CastingClasses;
 
 import com.xworkz.isARelation.*;
+import javafx.geometry.Pos;
 
 public class Runner {
     public static void main(String[] args) {
@@ -62,6 +63,27 @@ public class Runner {
         Building building = new Building();
         LipStick lipStick = new MyGlamm();
         AnushkaSharma anushkaSharma = new AnushkaSharma();
+        Loan loan = new HomeLoan();
+        HomeOwner homeOwner = new HomeOwner();
+        Mammal mammal = new Tiger();
+        Forest forest = new Forest();
+        Mobile mobile = new SmartPhone();
+        PhoneUser phoneUser = new PhoneUser();
+        Mountain mountain = new Everest();
+        Sadguru sadguru = new Sadguru();
+        Movie movie = new ActionMovie();
+        Amitabacchan amitabacchan = new Amitabacchan();
+        Planet planet = new Earth();
+        SolarSystem solarSystem = new SolarSystem();
+        Poster poster = new NoticeBoard();
+        ClassRoom classRoom = new ClassRoom();
+        Reliance reliance = new Jio();
+        MobileShop mobileShop = new MobileShop();
+        Reptile reptile = new Reptile();
+        AmazonForest amazonForest = new AmazonForest();
+        River river = new AmazonRiver();
+        WaterBody waterBody = new WaterBody();
+
 
         System.out.println("=====================================");
         dhobi.cleanClothes(washingMachine);
@@ -122,6 +144,50 @@ public class Runner {
         System.out.println("=====================================");
         anushkaSharma.applyLipstick(lipStick);
         System.out.println("=====================================");
+        homeOwner.buildHome(loan);
+        System.out.println("=====================================");
+        forest.protectAnimals(mammal);
+        System.out.println("=====================================");
+        phoneUser.usePhone(mobile);
+        System.out.println("=====================================");
+        sadguru.climb(mountain);
+        System.out.println("=====================================");
+        amitabacchan.act(movie);
+        System.out.println("=====================================");
+        solarSystem.rotatePlanets(planet);
+        System.out.println("=====================================");
+        classRoom.fixNPoster(poster);
+        System.out.println("=====================================");
+        mobileShop.sell(reliance);
+        System.out.println("=====================================");
+        amazonForest.hasSnake(reptile);
+        System.out.println("=====================================");
+        waterBody.store(river);
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+        System.out.println("=====================================");
+
+
+
+
 
 
     }

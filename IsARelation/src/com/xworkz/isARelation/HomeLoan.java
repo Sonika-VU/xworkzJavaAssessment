@@ -35,4 +35,8 @@ public class HomeLoan extends Loan {
 //        super.repayLoan();
         System.out.println("Repaying Home Loan in EMI");
     }
+
+    public void withdrawLoan(){
+        System.out.println("Running withdrawLoan in HomeLoan");
+    }
 }

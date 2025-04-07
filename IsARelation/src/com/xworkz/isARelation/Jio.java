@@ -36,4 +36,8 @@ public class Jio extends Reliance{
         System.out.println("Running setGoals in Jio");
     }
 
+    public void issueSim(){
+        System.out.println("Running issueSim in Jio");
+    }
+
 }

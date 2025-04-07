@@ -35,4 +35,8 @@ public class Earth extends Planet {
 //        super.hasGravity();
         System.out.println("Running hasGravity in Earth");
     }
+
+    public void hasMoon(){
+        System.out.println("Running hasMoon in Earth");
+    }
 }
