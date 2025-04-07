@@ -36,4 +36,8 @@ public class SmartWatch extends Watch {
 //        super.checkPulseRate();
         System.out.println("Running checkPulseRate in SmartWatch");
     }
+
+    public void capturePhoto(){
+        System.out.println("Running capturePhoto in SmartWatch");
+    }
 }

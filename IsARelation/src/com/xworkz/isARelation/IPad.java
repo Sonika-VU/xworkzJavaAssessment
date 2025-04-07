@@ -35,4 +35,8 @@ public class IPad extends Tablet {
 //        super.readEbooks();
         System.out.println("Running readEbooks in iPad");
     }
+
+    public void storeData(){
+        System.out.println("Running storeData in IPad");
+    }
 }

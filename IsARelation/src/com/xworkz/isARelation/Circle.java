@@ -35,4 +35,8 @@ public class Circle extends Shape {
 //        super.resize();
         System.out.println("Running resize in Circle");
     }
+
+    public void rotate(){
+        System.out.println("Running rotate in Circle");
+    }
 }

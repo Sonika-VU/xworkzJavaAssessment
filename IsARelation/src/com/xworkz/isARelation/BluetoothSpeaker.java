@@ -35,4 +35,8 @@ public class BluetoothSpeaker extends Speaker {
 //        super.powerOn();
         System.out.println("Running powerOn in BluetoothSpeaker");
     }
+
+    public void connect(){
+        System.out.println("Running connect in BluetoothSpeaker");
+    }
 }

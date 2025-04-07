@@ -83,6 +83,26 @@ public class Runner {
         AmazonForest amazonForest = new AmazonForest();
         River river = new AmazonRiver();
         WaterBody waterBody = new WaterBody();
+        Robot robot = new HumanoidRobot();
+        RoboticEng roboticEng = new RoboticEng();
+        Rock rock = new Granite();
+        House house = new House();
+        School school = new HighSchool();
+        Institute institute = new Institute();
+        Shape shape = new Circle();
+        Drawing drawing = new Drawing();
+        Speaker speaker = new BluetoothSpeaker();
+        HomeTheater homeTheater = new HomeTheater();
+        Table table = new DiningTable();
+        Hotel hotel = new Hotel();
+        Tablet tablet = new IPad();
+        DhirubaiSchool dhirubaiSchool = new DhirubaiSchool();
+        Tree tree = new OakTree();
+        Researcher researcher = new Researcher();
+        University university = new PublicUniversity();
+        UniversityStudent universityStudent = new UniversityStudent();
+        Watch watch = new SmartWatch();
+        WatchUSer watchUSer = new WatchUSer();
 
 
         System.out.println("=====================================");
@@ -164,25 +184,25 @@ public class Runner {
         System.out.println("=====================================");
         waterBody.store(river);
         System.out.println("=====================================");
-
+        roboticEng.build(robot);
         System.out.println("=====================================");
-
+        house.makeFloor(rock);
         System.out.println("=====================================");
-
+        institute.runSchool(school);
         System.out.println("=====================================");
-
+        drawing.draw(shape);
         System.out.println("=====================================");
-
+        homeTheater.use(speaker);
         System.out.println("=====================================");
-
+        hotel.setTable(table);
         System.out.println("=====================================");
-
+        dhirubaiSchool.provideIPad(tablet);
         System.out.println("=====================================");
-
+        researcher.research(tree);
         System.out.println("=====================================");
-
+        universityStudent.getAdmission(university);
         System.out.println("=====================================");
-
+        watchUSer.wear(watch);
         System.out.println("=====================================");
 
 

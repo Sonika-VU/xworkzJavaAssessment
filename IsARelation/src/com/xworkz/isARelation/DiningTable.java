@@ -35,4 +35,8 @@ public class DiningTable extends Table {
 //        super.beDurable();
         System.out.println("Running beDurable in DiningTable");
     }
+
+    public void eatFood(){
+        System.out.println("Running eatFood in DiningTable");
+    }
 }

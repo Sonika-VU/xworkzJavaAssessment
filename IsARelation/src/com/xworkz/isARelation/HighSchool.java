@@ -35,4 +35,8 @@ public class HighSchool extends School {
 //        super.celebrateEvents();
         System.out.println("Hosting graduation ceremony in High School");
     }
+
+    public void getAwards(){
+        System.out.println("Running getAwards in HighSchool");
+    }
 }

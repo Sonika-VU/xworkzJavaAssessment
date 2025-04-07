@@ -36,4 +36,8 @@ public class HumanoidRobot extends  Robot{
         System.out.println("Running assemble in HumanoidRobot");
     }
 
+    public void help(){
+        System.out.println("Running help in HumanoidRobot");
+    }
+
 }

@@ -35,4 +35,8 @@ public class OakTree extends Tree {
 //        super.bearFruit();
         System.out.println("Running bearFruit in OakTree");
     }
+
+    public void takeWood(){
+        System.out.println("Running takeWood in OakTree");
+    }
 }

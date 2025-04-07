@@ -35,4 +35,7 @@ public class Granite extends Rock {
 //        super.appearInDifferentShapes();
         System.out.println("Running appearInDifferentShapes in Granite");
     }
+    public  void makeTile(){
+        System.out.println("Running makeTile in Granite");
+    }
 }

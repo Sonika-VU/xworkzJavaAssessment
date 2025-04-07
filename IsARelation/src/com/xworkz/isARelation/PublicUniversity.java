@@ -35,4 +35,8 @@ public class PublicUniversity extends University {
 //        super.offerCourses();
         System.out.println("Providing a wide range of courses in Public University");
     }
+
+    public void underGovt(){
+        System.out.println("Running underGovt in Public University");
+    }
 }
