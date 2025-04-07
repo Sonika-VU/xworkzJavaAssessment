@@ -35,4 +35,8 @@ public class MountainBike extends Bike {
         super.honk();
         System.out.println("Running honk in MountainBike");
     }
+
+    public void gears(){
+        System.out.println("Running gears in MountainBike");
+    }
 }

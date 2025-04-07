@@ -35,4 +35,8 @@ public class VisaCard extends CreditCard {
 //        super.payBill();
         System.out.println("Paying Visa card bill");
     }
+
+    public  void planTrip(){
+        System.out.println("Running planTrip in VisaCard");
+    }
 }

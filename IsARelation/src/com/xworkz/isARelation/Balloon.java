@@ -35,4 +35,8 @@ public class Balloon extends Factory{
 //        super.produceProduct();
         System.out.println("Running produceProduct in Balloon");
     }
+
+    public void fillAir(){
+        System.out.println("Running fillAir in Balloon");
+    }
 }

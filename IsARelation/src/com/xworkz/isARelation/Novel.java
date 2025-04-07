@@ -36,4 +36,8 @@ public class Novel extends Book{
 //        super.wrap();
         System.out.println("Running wrap in Book");
     }
+
+    public void makeStory(){
+        System.out.println("Running makeStory in Novel");
+    }
 }

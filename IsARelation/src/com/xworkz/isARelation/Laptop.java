@@ -35,4 +35,8 @@ public class Laptop extends Computer {
         super.turnOff();
         System.out.println("Running turnOff in Laptop");
     }
+
+    public void editExcel(){
+        System.out.println("Running editExcel in Laptop");
+    }
 }

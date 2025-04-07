@@ -36,4 +36,8 @@ public class ITComapany extends Company{
 //        super.handleClient();
         System.out.println("Running handleClient in Company");
     }
+
+    public void updateSoftware(){
+        System.out.println("Running updateSoftware in ITCompany");
+    }
 }

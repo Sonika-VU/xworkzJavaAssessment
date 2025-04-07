@@ -35,4 +35,8 @@ public class DSLRCamera extends Camera {
 //        super.adjustFocus();
         System.out.println("Running adjustFocus in DSLRCamera");
     }
+
+    public void editImage(){
+        System.out.println("Running editImage in DSLRCamera");
+    }
 }

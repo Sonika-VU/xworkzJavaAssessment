@@ -36,4 +36,8 @@ public class SavingAccount extends BankAccount{
 //        super.closeAccount();
         System.out.println("Running closeAccount in SavingAccount");
     }
+
+    public void writeCheck(){
+        System.out.println("Running writeCheck in SavingAccount");
+    }
 }

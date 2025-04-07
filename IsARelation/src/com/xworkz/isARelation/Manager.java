@@ -35,4 +35,8 @@ public class Manager extends Employee {
 //        super.submitReport();
         System.out.println("Running submitReport in Manager");
     }
+
+    public void assignTask(){
+        System.out.println("Running assignTask in Manager");
+    }
 }

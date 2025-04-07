@@ -35,4 +35,8 @@ public class Cat extends Animal {
 //        super.breathe();
         System.out.println("Cat is breathing normally");
     }
+
+    public void drinkMilk(){
+        System.out.println("Running drinkMilk from Cat");
+    }
 }

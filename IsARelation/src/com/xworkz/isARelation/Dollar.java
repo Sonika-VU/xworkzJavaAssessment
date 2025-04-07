@@ -35,4 +35,8 @@ public class Dollar extends Currency {
 //        super.withdraw();
         System.out.println("Withdrawing Dollar from ATM");
     }
+
+    public void keepMuseum(){
+        System.out.println("Running keepMuseum in Dollar");
+    }
 }

@@ -35,4 +35,8 @@ public class Sailboat extends Boat {
 //        super.slowDown();
         System.out.println("Running slowDown in Sailboat");
     }
+
+    public void allowPeople(){
+        System.out.println("Running allowPeople in SailBoat");
+    }
 }

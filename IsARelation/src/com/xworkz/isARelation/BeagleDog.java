@@ -36,4 +36,8 @@ public class BeagleDog extends Dog{
 //        super.run();
         System.out.println("Running run in BeagleDog");
     }
+
+    public void jump(){
+        System.out.println("Running jump in BeagleDog");
+    }
 }

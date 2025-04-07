@@ -35,4 +35,8 @@ public class Account extends Bank {
 //        super.closeAccount();
         System.out.println("Running closeAccount in Account");
     }
+
+    public void issueLoan(){
+        System.out.println("Running issueLoan in Account");
+    }
 }

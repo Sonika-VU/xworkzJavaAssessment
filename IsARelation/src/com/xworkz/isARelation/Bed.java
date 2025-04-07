@@ -31,4 +31,7 @@ public class Bed extends Furniture {
             public void paint() {
         System.out.println("Painting the headboard");
     }
+    public void sleep(){
+        System.out.println("Running sleep in Bed");
+    }
 }

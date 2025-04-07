@@ -35,4 +35,8 @@ public class Painter extends Artist {
 //        super.displayArt();
         System.out.println("Running displayArt in Painter");
     }
+
+    public void sellPaintings(){
+        System.out.println("Running sellPaintings in Painter");
+    }
 }

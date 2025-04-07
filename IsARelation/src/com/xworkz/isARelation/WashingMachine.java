@@ -14,25 +14,29 @@ public class WashingMachine extends Appliance {
 
     @Override
     public  void adjustSettings(){
-        super.adjustSettings();
+//        super.adjustSettings();
         System.out.println("Running adjustSettings in WashingMachine");
     }
 
     @Override
     public void showStatus(){
-        super.showStatus();
+//        super.showStatus();
         System.out.println("Running showStatus in WashingMachine");
     }
 
     @Override
     public  void scheduleTask(){
-        super.scheduleTask();
+//        super.scheduleTask();
         System.out.println("Running scheduleTask in WashingMachine");
     }
 
     @Override
     public void turnOff(){
-        super.turnOff();
+//        super.turnOff();
         System.out.println("Running turnOff in WashingMachine");
+    }
+
+    public void washClothes(){
+        System.out.println("Running washClothes in WashingMachine");
     }
 }

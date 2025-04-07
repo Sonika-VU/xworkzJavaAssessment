@@ -38,4 +38,8 @@ public class TShirt extends Clothing{
         System.out.println("Running wash in TShirt");
     }
 
+    public void dryClean(){
+        System.out.println("Running dryClean in TShirt");
+    }
+
 }

@@ -35,4 +35,8 @@ public class Deer extends Animal {
 //        super.breathe();
         System.out.println("Deer is breathing calmly");
     }
+
+    public void takeSkin(){
+        System.out.println("Running takeSkin in Deer");
+    }
 }

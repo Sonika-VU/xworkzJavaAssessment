@@ -36,4 +36,8 @@ public class Parrot extends Bird{
 //        super.fly();
         System.out.println("Running fly in Parrot");
     }
+
+    public void pickCard(){
+        System.out.println("Running pickCard in Parrot");
+    }
 }

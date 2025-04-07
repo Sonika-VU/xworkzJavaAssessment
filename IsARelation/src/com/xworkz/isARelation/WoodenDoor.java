@@ -30,9 +30,15 @@ public class WoodenDoor extends Door {
         System.out.println("Running unlock in WoodenDoor");
     }
 
+
+
     @Override
     public void provideSecurity(){
 //        super.provideSecurity();
         System.out.println("Running provideSecurity in WoodenDoor");
+    }
+
+    public void makeDesign(){
+        System.out.println("Running makeDesign in WoodenDoor");
     }
 }
