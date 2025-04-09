@@ -1,6 +1,7 @@
 package com.xworkz.ObjectMethodUsage.external;
 
 import com.xworkz.ObjectMethodUsage.internal.*;
+import org.w3c.dom.ranges.DocumentRange;
 
 public class Runner {
     public static void main(String[] args) {
@@ -14,6 +15,46 @@ public class Runner {
         Chair chair = new Chair("Wood", "Brown", 1000);
         Laptop laptop = new Laptop("Hp" , 100, "I7");
         TShirt tShirt = new TShirt("XS", "White", 100);
+        LipStick lipStick = new LipStick("Mars", "Red", 300);
+        Television television = new Television("Samsung" ,32, 30000);
+        Gold gold = new Gold("Chain", 10, 200000);
+        Door door = new Door("Wooden", 3, 1);
+        Bangle bangle = new Bangle("Metal", 22, 100);
+        Chocolate chocolate = new Chocolate("KitKat", false, 30);
+        Zoo zoo = new Zoo("Sri Chamarajendra Zoological Gardens","Mysore", 100 );
+        Projector projector = new Projector("Epson", "White", 5000);
+        Book book = new Book("A4", "Camel", 130);
+        Test test = new Test("Online", "22-04-2025", 100);
+        Institute institute = new Institute("Siddarth", "Tumkur", 2000);
+        Planet planet = new Planet("Earth", 1, 100000);
+        Eagle eagle = new Eagle("Brown", 2, true);
+        Board board = new Board("White", 100, 180);
+        Shoe shoe = new Shoe("Nike", 10, "Black");
+        Watch watch = new Watch("Sonata", "wristWatch", true);
+        Table table = new Table("Square", "Plastic", 4);
+        Bike bike = new Bike("Yamaha", 100, 80);
+        Camera camera = new Camera("Sony", 100, 10000);
+        Helmet helmet = new Helmet("Sport touring", "Black", true);
+        Keyboard keyboard = new Keyboard("Dell", false, 400);
+        Speaker speaker = new Speaker("Boat", 14, true);
+        Refrigerator refrigerator = new Refrigerator("Godrej", 180, true);
+        Microwave microwave = new Microwave("Samsung", 1400, true);
+        Tablet tablet = new Tablet("iPad", 1000,12);
+        Cup cup = new Cup("Steel", 5.5, "Silver");
+        Mirror mirror = new Mirror("Round", 10, 10);
+        Sofa sofa = new Sofa("Satin", 3, "Brown");
+        Clock clock = new Clock("Wall CLock", true, "Fastrack");
+        Lamp lamp = new Lamp("Table lamp", 50, true);
+        Student student = new Student("Sonika", 106,90);
+        City city = new City("Davanagere", "Karnataka", 900000);
+        Movie movie = new Movie("Orange", "RamCharan", 5);
+        Employee employee = new Employee("CS106", "CSE", 100000);
+        Festival festival = new Festival("Ugadi", "March", false);
+        Game game = new Game("Cricket", 11, true);
+        Flight flight = new Flight("Air India", 123, false);
+        Weather weather = new Weather("Bangalore", 38, "Sunny");
+        Tile tile = new Tile("Granite", 50, true);
+        Robot robot = new Robot("hand", "lifting", true);
 
         System.out.println("1.Tyre : "+tyre);
         System.out.println("2. Poster : "+poster);
@@ -25,5 +66,45 @@ public class Runner {
         System.out.println("8. Chair : "+chair);
         System.out.println("9. Laptop : "+laptop);
         System.out.println("10. TShirt : "+tShirt);
+        System.out.println("11. LipStick : "+lipStick);
+        System.out.println("12. Television : "+television);
+        System.out.println("13. Gold : "+gold);
+        System.out.println("14. Door : "+door);
+        System.out.println("15. Bangle : "+bangle);
+        System.out.println("16. Chocolate : "+chocolate);
+        System.out.println("17. Zoo : "+zoo);
+        System.out.println("18. Projector : " +projector);
+        System.out.println("19. Book : "+book);
+        System.out.println("20. Test : "+test);
+        System.out.println("21. Institute : " + institute);
+        System.out.println("22. Planet : "+planet);
+        System.out.println("23. Eagle : "+eagle);
+        System.out.println("24. Board : "+board);
+        System.out.println("25. Shoe : "+shoe);
+        System.out.println("26. Watch : "+watch);
+        System.out.println("27 : Table : "+table);
+        System.out.println("28. Bike : "+bike);
+        System.out.println("29. Camera : "+camera);
+        System.out.println("30. Helmet : "+helmet);
+        System.out.println("31. Keyboard : "+keyboard);
+        System.out.println("32. Speaker : "+speaker);
+        System.out.println("33. Refrigerator : "+refrigerator);
+        System.out.println("34. Microwave : "+microwave);
+        System.out.println("35. Tablet : "+tablet);
+        System.out.println("36. Cup : "+cup);
+        System.out.println("37. Mirror: "+mirror);
+        System.out.println("38. Sofa : "+sofa);
+        System.out.println("39. Clock : "+clock);
+        System.out.println("40. Lamp : "+lamp);
+        System.out.println("41. Student : "+student);
+        System.out.println("42. City : "+city);
+        System.out.println("43. Movie : "+movie);
+        System.out.println("44. Employee : "+employee);
+        System.out.println("45. Festival : "+festival);
+        System.out.println("46. Game : "+game);
+        System.out.println("47. Flight : "+flight);
+        System.out.println("48. Weather : "+weather);
+        System.out.println("50. Tile : "+tile);
+        System.out.println("51. Robot : "+robot);
     }
 }
