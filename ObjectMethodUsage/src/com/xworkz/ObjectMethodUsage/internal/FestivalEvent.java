@@ -20,4 +20,9 @@ public class FestivalEvent {
                 ", date='" + date + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 904384534;
+    }
 }

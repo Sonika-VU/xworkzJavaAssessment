@@ -20,4 +20,9 @@ public class BoardGame {
                 ", strategyBased=" + strategyBased +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2;
+    }
 }

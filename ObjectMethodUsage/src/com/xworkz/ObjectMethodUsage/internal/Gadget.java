@@ -20,4 +20,9 @@ public class Gadget {
                 ", weight=" + weight +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3241;
+    }
 }

@@ -22,4 +22,9 @@ public class Door {
                 ", width=" + width +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2067;
+    }
 }

@@ -20,4 +20,10 @@ public class App {
                 ", version=" + version +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        System.out.println("Default value : "+super.hashCode());
+        return 21;
+    }
 }

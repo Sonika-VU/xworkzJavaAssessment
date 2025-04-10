@@ -20,4 +20,9 @@ public class Camera {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 23;
+    }
 }

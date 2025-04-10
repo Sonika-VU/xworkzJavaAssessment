@@ -20,4 +20,10 @@ public class Contest {
                 ", participants=" + participants +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3224;
+    }
+
 }

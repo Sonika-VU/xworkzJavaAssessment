@@ -20,4 +20,9 @@ public class Eagle {
                 ", canFly=" + canFly +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -10;
+    }
 }

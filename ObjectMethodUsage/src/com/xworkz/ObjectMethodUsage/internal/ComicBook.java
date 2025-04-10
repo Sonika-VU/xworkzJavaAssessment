@@ -20,4 +20,9 @@ public class ComicBook {
                 ", issueNumber=" + issueNumber +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -1093;
+    }
 }

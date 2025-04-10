@@ -20,4 +20,9 @@ public class Bucket {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 89;
+    }
 }

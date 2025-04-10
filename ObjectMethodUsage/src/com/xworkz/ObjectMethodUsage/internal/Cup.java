@@ -20,4 +20,9 @@ public class Cup {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -943085;
+    }
 }

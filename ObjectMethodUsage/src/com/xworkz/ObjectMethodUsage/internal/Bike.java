@@ -20,4 +20,9 @@ public class Bike {
                 ", mileage=" + mileage +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 930;
+    }
 }

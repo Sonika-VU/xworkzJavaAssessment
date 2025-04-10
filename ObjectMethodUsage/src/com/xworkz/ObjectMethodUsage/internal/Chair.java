@@ -17,4 +17,8 @@ public class Chair {
                 ", price=" + price +
                 '}';
     }
+    @Override
+    public int hashCode() {
+        return -45;
+    }
 }

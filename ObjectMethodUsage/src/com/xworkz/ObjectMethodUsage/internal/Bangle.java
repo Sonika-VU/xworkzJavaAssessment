@@ -20,4 +20,9 @@ public class Bangle {
                 ", cost=" + cost +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 34;
+    }
 }

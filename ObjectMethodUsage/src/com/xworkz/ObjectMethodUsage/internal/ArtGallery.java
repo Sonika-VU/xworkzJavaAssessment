@@ -20,4 +20,9 @@ public class ArtGallery {
                 ", openToPublic=" + openToPublic +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 783;
+    }
 }

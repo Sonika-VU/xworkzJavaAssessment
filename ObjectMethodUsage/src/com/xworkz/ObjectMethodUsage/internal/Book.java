@@ -20,4 +20,9 @@ public class Book {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 67;
+    }
 }

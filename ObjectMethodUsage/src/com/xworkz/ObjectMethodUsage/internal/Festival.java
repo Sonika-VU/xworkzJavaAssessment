@@ -20,4 +20,9 @@ public class Festival {
                 ", isNationalHoliday=" + isNationalHoliday +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 50;
+    }
 }

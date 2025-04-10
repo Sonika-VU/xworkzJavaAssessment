@@ -20,4 +20,9 @@ public class Cloth {
                 ", length=" + length +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2321;
+    }
 }

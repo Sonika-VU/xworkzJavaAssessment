@@ -20,4 +20,9 @@ public class AppUpdate {
                 ", isMandatory=" + isMandatory +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -89;
+    }
 }

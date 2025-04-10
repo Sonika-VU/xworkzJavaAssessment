@@ -20,4 +20,9 @@ public class Award {
                 ", yearWon=" + yearWon +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 22;
+    }
 }

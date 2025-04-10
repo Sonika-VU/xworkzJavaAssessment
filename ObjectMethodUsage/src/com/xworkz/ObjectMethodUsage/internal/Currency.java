@@ -20,4 +20,9 @@ public class Currency {
                 ", exchangeRate=" + exchangeRate +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3949;
+    }
 }

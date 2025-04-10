@@ -20,4 +20,9 @@ public class Flight {
                 ", isInternational=" + isInternational +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 23432;
+    }
 }

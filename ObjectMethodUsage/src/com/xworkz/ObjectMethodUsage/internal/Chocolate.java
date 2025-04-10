@@ -20,4 +20,9 @@ public class Chocolate {
                 ", cost=" + cost +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -121;
+    }
 }

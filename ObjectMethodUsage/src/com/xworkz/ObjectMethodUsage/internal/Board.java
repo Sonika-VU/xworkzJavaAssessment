@@ -20,4 +20,9 @@ public class Board {
                 ", width=" + width +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -12;
+    }
 }

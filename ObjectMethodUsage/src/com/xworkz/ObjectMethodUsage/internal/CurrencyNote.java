@@ -20,4 +20,9 @@ public class CurrencyNote {
                 ", inCirculation=" + inCirculation +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 1000;
+    }
 }

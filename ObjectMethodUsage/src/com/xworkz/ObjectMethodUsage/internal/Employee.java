@@ -20,4 +20,9 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 100000;
+    }
 }

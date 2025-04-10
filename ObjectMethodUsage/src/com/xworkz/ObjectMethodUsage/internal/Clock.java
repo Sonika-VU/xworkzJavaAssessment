@@ -20,4 +20,9 @@ public class Clock {
                 ", brand='" + brand + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 239;
+    }
 }

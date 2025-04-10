@@ -20,4 +20,9 @@ public class Backpack {
                 ", hasLaptopSection=" + hasLaptopSection +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -909;
+    }
 }

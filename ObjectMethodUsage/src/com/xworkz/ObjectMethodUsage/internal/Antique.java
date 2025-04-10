@@ -20,4 +20,10 @@ public class Antique {
                 ", originCountry='" + originCountry + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        System.out.println("Default value : "+super.hashCode());
+        return 99;
+    }
 }

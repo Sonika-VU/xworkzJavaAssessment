@@ -20,4 +20,9 @@ public class Capsule {
                 ", noOfTimes=" + noOfTimes +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -342;
+    }
 }

@@ -21,5 +21,10 @@ public class Factory {
                 ", location='" + location + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2934820;
+    }
 }
 

@@ -20,4 +20,9 @@ public class City {
                 ", population=" + population +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -56;
+    }
 }

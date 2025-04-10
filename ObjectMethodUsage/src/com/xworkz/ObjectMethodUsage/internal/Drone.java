@@ -20,4 +20,9 @@ public class Drone {
                 ", cameraAvailable=" + cameraAvailable +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -30294;
+    }
 }

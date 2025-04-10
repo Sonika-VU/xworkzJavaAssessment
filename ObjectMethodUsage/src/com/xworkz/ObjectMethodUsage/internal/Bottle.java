@@ -20,4 +20,9 @@ public class Bottle {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -98;
+    }
 }

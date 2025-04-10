@@ -20,4 +20,9 @@ public class Curtain {
                 ", isBlackout=" + isBlackout +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 92380;
+    }
 }

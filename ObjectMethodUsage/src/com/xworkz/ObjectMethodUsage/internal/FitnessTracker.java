@@ -20,4 +20,9 @@ public class FitnessTracker {
                 ", batteryLifeHours=" + batteryLifeHours +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 23901293;
+    }
 }
