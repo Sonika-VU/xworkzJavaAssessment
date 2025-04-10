@@ -20,4 +20,8 @@ public class Soap {
                 ", isAntibacterial=" + isAntibacterial +
                 '}';
     }
+    @Override
+    public int hashCode() {
+        return 19;
+    }
 }

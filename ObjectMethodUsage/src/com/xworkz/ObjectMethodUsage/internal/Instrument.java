@@ -20,4 +20,9 @@ public class Instrument {
                 ", electric=" + electric +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -1;
+    }
 }

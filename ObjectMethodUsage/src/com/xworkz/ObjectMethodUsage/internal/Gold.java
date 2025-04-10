@@ -20,4 +20,9 @@ public class Gold {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 231250908;
+    }
 }

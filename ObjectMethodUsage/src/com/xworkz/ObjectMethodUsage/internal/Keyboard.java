@@ -20,4 +20,9 @@ public class Keyboard {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 392;
+    }
 }

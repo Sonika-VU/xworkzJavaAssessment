@@ -20,4 +20,9 @@ public class Test {
                 ", date='" + date + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 9807;
+    }
 }

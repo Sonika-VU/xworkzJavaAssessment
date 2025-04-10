@@ -20,4 +20,9 @@ public class Tile {
                 ", isBreakable=" + isBreakable +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2341;
+    }
 }

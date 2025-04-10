@@ -20,4 +20,9 @@ public class Library {
                 ", isPublic=" + isPublic +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 785;
+    }
 }

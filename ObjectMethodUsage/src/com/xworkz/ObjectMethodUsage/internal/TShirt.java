@@ -20,4 +20,9 @@ public class TShirt {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 235;
+    }
 }

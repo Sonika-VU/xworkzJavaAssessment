@@ -20,4 +20,9 @@ public class LipStick {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 5688;
+    }
 }

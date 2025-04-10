@@ -20,4 +20,9 @@ public class Institute {
                 ", location='" + location + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 865;
+    }
 }

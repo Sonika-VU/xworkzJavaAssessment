@@ -20,4 +20,9 @@ public class Recipe {
                 ", isVegetarian=" + isVegetarian +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 57654;
+    }
 }

@@ -20,4 +20,9 @@ public class Weather {
                 ", condition='" + condition + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -80;
+    }
 }

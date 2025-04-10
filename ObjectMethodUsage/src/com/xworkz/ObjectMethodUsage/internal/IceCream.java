@@ -20,4 +20,9 @@ public class IceCream {
                 ", hasNuts=" + hasNuts +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -23134;
+    }
 }

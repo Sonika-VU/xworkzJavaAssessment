@@ -20,4 +20,9 @@ public class Shoe {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 675908;
+    }
 }

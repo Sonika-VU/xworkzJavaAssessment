@@ -21,4 +21,8 @@ public class Zoo {
                 ", enteranceFee=" + enteranceFee +
                 '}';
     }
+    @Override
+    public int hashCode() {
+        return 75;
+    }
 }

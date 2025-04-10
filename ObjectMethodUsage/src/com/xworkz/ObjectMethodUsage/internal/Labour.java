@@ -20,4 +20,9 @@ public class Labour {
                 ", location='" + location + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 1000;
+    }
 }

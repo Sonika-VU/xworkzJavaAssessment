@@ -20,4 +20,9 @@ public class Umbrella {
                 ", isAutomatic=" + isAutomatic +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 40000;
+    }
 }

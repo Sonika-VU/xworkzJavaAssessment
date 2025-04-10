@@ -20,4 +20,9 @@ public class Tablet {
                 ", screenSize=" + screenSize +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -1232;
+    }
 }

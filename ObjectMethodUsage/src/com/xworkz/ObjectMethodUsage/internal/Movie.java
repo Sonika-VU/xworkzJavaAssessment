@@ -20,4 +20,9 @@ public class Movie {
                 ", rating=" + rating +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 365721756;
+    }
 }

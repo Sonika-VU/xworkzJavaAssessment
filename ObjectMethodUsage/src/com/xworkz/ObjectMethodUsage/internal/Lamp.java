@@ -20,4 +20,9 @@ public class Lamp {
                 ", isLED=" + isLED +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2902;
+    }
 }

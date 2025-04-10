@@ -20,4 +20,9 @@ public class Student {
                 ", percentage=" + percentage +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 780;
+    }
 }

@@ -20,4 +20,9 @@ public class Watch {
                 ", isSmart=" + isSmart +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2200;
+    }
 }

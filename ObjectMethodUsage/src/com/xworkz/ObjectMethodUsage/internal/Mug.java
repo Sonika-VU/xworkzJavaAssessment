@@ -20,4 +20,9 @@ public class Mug {
                 ", hasHandle=" + hasHandle +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 63;
+    }
 }

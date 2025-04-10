@@ -20,4 +20,9 @@ public class ThemePark {
                 ", hasWaterPark=" + hasWaterPark +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -8709;
+    }
 }

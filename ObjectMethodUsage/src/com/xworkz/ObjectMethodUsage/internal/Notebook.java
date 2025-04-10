@@ -20,4 +20,9 @@ public class Notebook {
                 ", isSpiralBound=" + isSpiralBound +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 43;
+    }
 }

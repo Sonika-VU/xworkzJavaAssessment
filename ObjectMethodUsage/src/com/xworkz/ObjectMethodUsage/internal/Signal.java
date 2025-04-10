@@ -20,4 +20,9 @@ public class Signal {
                 ", isWorking=" + isWorking +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3;
+    }
 }

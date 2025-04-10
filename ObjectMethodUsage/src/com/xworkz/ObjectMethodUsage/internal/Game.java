@@ -20,4 +20,9 @@ public class Game {
                 ", isOnline=" + isOnline +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 213112;
+    }
 }

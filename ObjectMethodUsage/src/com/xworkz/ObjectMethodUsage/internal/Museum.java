@@ -20,4 +20,9 @@ public class Museum {
                 ", numberOfArtifacts=" + numberOfArtifacts +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 100;
+    }
 }

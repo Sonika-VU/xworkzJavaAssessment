@@ -20,4 +20,9 @@ public class RemoteControl {
                 ", isRechargeable=" + isRechargeable +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3465;
+    }
 }

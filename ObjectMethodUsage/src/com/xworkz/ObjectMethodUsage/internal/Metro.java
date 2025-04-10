@@ -20,4 +20,9 @@ public class Metro {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -854;
+    }
 }

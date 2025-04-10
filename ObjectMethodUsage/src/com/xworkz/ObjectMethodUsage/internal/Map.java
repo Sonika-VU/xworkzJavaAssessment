@@ -20,4 +20,9 @@ public class Map {
                 ", isColored=" + isColored +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -78790;
+    }
 }

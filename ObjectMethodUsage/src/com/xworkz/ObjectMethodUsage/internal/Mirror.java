@@ -20,4 +20,9 @@ public class Mirror {
                 ", width=" + width +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -8675;
+    }
 }

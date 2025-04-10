@@ -20,4 +20,9 @@ public class Lodge {
                 ", rentPerDay=" + rentPerDay +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 6859;
+    }
 }

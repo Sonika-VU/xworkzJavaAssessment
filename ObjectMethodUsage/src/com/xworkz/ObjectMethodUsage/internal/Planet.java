@@ -20,4 +20,9 @@ public class Planet {
                 ", radius=" + radius +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -357833;
+    }
 }

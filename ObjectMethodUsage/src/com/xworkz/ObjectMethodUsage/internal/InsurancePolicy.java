@@ -20,4 +20,9 @@ public class InsurancePolicy {
                 ", durationYears=" + durationYears +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -2342;
+    }
 }

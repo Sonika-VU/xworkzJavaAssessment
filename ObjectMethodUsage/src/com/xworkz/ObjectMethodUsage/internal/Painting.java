@@ -20,4 +20,9 @@ public class Painting {
                 ", yearCreated=" + yearCreated +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 143;
+    }
 }

@@ -20,4 +20,9 @@ public class Rocket {
                 ", isReusable=" + isReusable +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 90498;
+    }
 }

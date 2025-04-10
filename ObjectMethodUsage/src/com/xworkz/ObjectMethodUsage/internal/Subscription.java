@@ -20,4 +20,9 @@ public class Subscription {
                 ", validityDays=" + validityDays +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 999;
+    }
 }

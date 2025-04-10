@@ -20,4 +20,9 @@ public class Poster {
                 ", isColor=" + isColor +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 436;
+    }
 }

@@ -20,4 +20,9 @@ public class Toothbrush {
                 ", isElectric=" + isElectric +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 893;
+    }
 }

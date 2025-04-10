@@ -20,5 +20,10 @@ public class LunchBox {
                 ", isMicrowaveSafe=" + isMicrowaveSafe +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 4890;
+    }
 }
 

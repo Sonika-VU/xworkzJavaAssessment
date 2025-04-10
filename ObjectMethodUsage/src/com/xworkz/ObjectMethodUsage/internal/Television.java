@@ -20,4 +20,9 @@ public class Television {
                 ", cost=" + cost +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 30000;
+    }
 }

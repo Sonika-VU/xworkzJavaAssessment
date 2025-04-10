@@ -20,4 +20,8 @@ public class Tattoo {
                 ", isColored=" + isColored +
                 '}';
     }
+    @Override
+    public int hashCode() {
+        return -1;
+    }
 }

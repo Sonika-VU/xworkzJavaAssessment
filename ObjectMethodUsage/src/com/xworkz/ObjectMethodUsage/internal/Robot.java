@@ -20,4 +20,9 @@ public class Robot {
                 ", isAutonomous=" + isAutonomous +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 4322;
+    }
 }

@@ -20,4 +20,9 @@ public class Temple {
                 ", age=" + age +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 992;
+    }
 }

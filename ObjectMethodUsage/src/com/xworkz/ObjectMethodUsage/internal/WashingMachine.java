@@ -20,5 +20,10 @@ public class WashingMachine {
                 ", isFrontLoad=" + isFrontLoad +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 2355;
+    }
 }
 

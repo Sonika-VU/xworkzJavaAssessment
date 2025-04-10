@@ -20,4 +20,9 @@ public class Podcast {
                 ", episodes=" + episodes +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -856;
+    }
 }

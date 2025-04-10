@@ -20,4 +20,9 @@ public class Table {
                 ", legs=" + legs +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 123435;
+    }
 }

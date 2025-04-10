@@ -20,4 +20,9 @@ public class Projector {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 573;
+    }
 }

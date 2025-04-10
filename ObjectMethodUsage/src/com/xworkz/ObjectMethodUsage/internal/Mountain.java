@@ -20,4 +20,9 @@ public class Mountain {
                 ", range='" + location + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -9876;
+    }
 }

@@ -20,4 +20,9 @@ public class Tyre {
                 ", price=" + price +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 21891;
+    }
 }

@@ -20,4 +20,9 @@ public class Language {
                 ", isOfficial=" + isOfficial +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3245154;
+    }
 }

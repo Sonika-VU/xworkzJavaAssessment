@@ -20,4 +20,9 @@ public class Passport {
                 ", expiryYear=" + expiryYear +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -65;
+    }
 }

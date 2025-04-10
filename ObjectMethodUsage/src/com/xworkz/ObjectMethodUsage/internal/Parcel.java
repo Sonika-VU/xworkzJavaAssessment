@@ -20,4 +20,9 @@ public class Parcel {
                 ", weight=" + weight +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 243;
+    }
 }

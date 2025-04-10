@@ -22,4 +22,9 @@ public class Laptop {
                 ", processor='" + processor + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 3928401;
+    }
 }

@@ -20,4 +20,9 @@ public class Skyscraper {
                 ", city='" + city + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 9807;
+    }
 }

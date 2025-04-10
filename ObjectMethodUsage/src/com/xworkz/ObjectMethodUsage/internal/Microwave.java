@@ -20,4 +20,9 @@ public class Microwave {
                 ", hasGrill=" + hasGrill +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -80;
+    }
 }

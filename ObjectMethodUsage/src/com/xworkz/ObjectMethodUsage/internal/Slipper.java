@@ -20,4 +20,9 @@ public class Slipper {
                 ", material='" + material + '\'' +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 241;
+    }
 }

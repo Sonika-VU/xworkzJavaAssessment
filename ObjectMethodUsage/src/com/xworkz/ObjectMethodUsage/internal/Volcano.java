@@ -20,4 +20,9 @@ public class Volcano {
                 ", isActive=" + isActive +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 1000;
+    }
 }

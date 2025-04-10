@@ -20,4 +20,9 @@ public class Helmet {
                 ", isFullFace=" + isFullFace +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return -4536;
+    }
 }

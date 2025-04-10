@@ -20,4 +20,9 @@ public class Speaker {
                 ", isBluetooth=" + isBluetooth +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return 10000;
+    }
 }
