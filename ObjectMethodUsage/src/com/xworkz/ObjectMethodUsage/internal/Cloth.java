@@ -25,4 +25,21 @@ public class Cloth {
     public int hashCode() {
         return 2321;
     }
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof App){
+                System.out.println("Ref instanceOf Antique");
+                Cloth cloth1 = this;
+                Cloth cloth2 = (Cloth) obj;
+                if(cloth1.material == cloth2.material ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

@@ -26,4 +26,21 @@ public class App {
         System.out.println("Default value : "+super.hashCode());
         return 21;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof App){
+                System.out.println("Ref instanceOf Antique");
+                App app1 = this;
+                App app2 = (App) obj;
+                if(app1.appName == app2.appName ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

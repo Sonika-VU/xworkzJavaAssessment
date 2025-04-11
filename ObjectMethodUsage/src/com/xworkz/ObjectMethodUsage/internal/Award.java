@@ -25,4 +25,21 @@ public class Award {
     public int hashCode() {
         return 22;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Award){
+                System.out.println("Ref instanceOf Antique");
+                Award award1 = this;
+                Award award2 = (Award) obj;
+                if(award1.awardName == award2.awardName ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

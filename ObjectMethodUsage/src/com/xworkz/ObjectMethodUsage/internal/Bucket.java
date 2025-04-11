@@ -25,4 +25,21 @@ public class Bucket {
     public int hashCode() {
         return 89;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Bucket){
+                System.out.println("Ref instanceOf Antique");
+                Bucket bucket1 = this;
+                Bucket bucket2 = (Bucket) obj;
+                if(bucket1.capacity == bucket2.capacity ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

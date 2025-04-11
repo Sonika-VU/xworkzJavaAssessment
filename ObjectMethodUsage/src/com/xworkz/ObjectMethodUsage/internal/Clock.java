@@ -25,4 +25,21 @@ public class Clock {
     public int hashCode() {
         return 239;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Clock){
+                System.out.println("Ref instanceOf Antique");
+                Clock clock1 = this;
+                Clock clock2 = (Clock) obj;
+                if(clock1.brand == clock2.brand ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

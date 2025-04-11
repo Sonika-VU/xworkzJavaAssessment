@@ -25,4 +25,21 @@ public class ComicBook {
     public int hashCode() {
         return -1093;
     }
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof App){
+                System.out.println("Ref instanceOf Antique");
+                ComicBook comicBook1 = this;
+                ComicBook comicBook2 = (ComicBook) obj;
+                if(comicBook1.title == comicBook2.title ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

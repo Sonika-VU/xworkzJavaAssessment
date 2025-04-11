@@ -25,4 +25,21 @@ public class Book {
     public int hashCode() {
         return 67;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Book){
+                System.out.println("Ref instanceOf Antique");
+                Book book1 = this;
+                Book book2 = (Book) obj;
+                if(book1.brand == book2.brand ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

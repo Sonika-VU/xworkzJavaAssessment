@@ -25,4 +25,21 @@ public class CurrencyNote {
     public int hashCode() {
         return 1000;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof CurrencyNote){
+                System.out.println("Ref instanceOf Antique");
+                CurrencyNote currencyNote1 = this;
+                CurrencyNote currencyNote2 = (CurrencyNote) obj;
+                if(currencyNote1.value == currencyNote2.value ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

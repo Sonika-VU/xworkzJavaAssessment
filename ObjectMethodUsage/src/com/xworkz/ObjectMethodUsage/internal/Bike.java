@@ -25,4 +25,21 @@ public class Bike {
     public int hashCode() {
         return 930;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Bike){
+                System.out.println("Ref instanceOf Antique");
+                Bike bike1 = this;
+                Bike bike2 = (Bike) obj;
+                if(bike1.brand == bike2.brand ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

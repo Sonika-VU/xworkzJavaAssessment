@@ -25,4 +25,21 @@ public class Board {
     public int hashCode() {
         return -12;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Board){
+                System.out.println("Ref instanceOf Antique");
+                Board board1 = this;
+                Board board2 = (Board) obj;
+                if(board1.color == board2.color ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

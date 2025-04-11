@@ -26,4 +26,21 @@ public class Antique {
         System.out.println("Default value : "+super.hashCode());
         return 99;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Antique){
+                System.out.println("Ref instanceOf Antique");
+                Antique antique1 = this;
+                Antique antique2 = (Antique) obj;
+                if(antique1.name == antique2.name ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

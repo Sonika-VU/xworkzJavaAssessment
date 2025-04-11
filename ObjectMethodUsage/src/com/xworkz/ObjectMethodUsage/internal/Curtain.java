@@ -25,4 +25,21 @@ public class Curtain {
     public int hashCode() {
         return 92380;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Curtain){
+                System.out.println("Ref instanceOf Antique");
+                Curtain curtain1 = this;
+                Curtain curtain2 = (Curtain) obj;
+                if(curtain1.fabric == curtain2.fabric ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

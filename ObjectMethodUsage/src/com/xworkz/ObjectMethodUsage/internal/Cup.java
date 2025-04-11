@@ -25,4 +25,21 @@ public class Cup {
     public int hashCode() {
         return -943085;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Cup){
+                System.out.println("Ref instanceOf Antique");
+                Cup cup1 = this;
+                Cup cup2 = (Cup) obj;
+                if(cup1.material == cup2.material ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

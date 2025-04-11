@@ -1,6 +1,5 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 public class Door {
     private  String material;
@@ -26,5 +25,22 @@ public class Door {
     @Override
     public int hashCode() {
         return 2067;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Door){
+                System.out.println("Ref instanceOf Antique");
+                Door door1 = this;
+                Door door2 = (Door) obj;
+                if(door1.material == door2.material ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
     }
 }

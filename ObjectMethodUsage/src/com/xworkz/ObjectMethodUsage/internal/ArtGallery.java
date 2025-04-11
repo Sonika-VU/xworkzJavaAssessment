@@ -25,4 +25,21 @@ public class ArtGallery {
     public int hashCode() {
         return 783;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof ArtGallery){
+                System.out.println("Ref instanceOf Antique");
+                ArtGallery artGallery1 = this;
+                ArtGallery artGallery2 = (ArtGallery) obj;
+                if(artGallery1.galleryName == artGallery2.galleryName ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

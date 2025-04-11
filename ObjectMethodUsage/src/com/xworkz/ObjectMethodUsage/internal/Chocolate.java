@@ -25,4 +25,21 @@ public class Chocolate {
     public int hashCode() {
         return -121;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Chocolate){
+                System.out.println("Ref instanceOf Antique");
+                Chocolate chocolate1 = this;
+                Chocolate chocolate2 = (Chocolate) obj;
+                if(chocolate1.name == chocolate2.name ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

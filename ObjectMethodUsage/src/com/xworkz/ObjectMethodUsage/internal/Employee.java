@@ -25,4 +25,21 @@ public class Employee {
     public int hashCode() {
         return 100000;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Employee){
+                System.out.println("Ref instanceOf Antique");
+                Employee employee1 = this;
+                Employee employee2 = (Employee) obj;
+                if(employee1.department == employee2.department ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

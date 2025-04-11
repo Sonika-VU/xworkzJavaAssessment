@@ -25,4 +25,21 @@ public class Bag {
     public int hashCode() {
         return 389;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Bag){
+                System.out.println("Ref instanceOf Antique");
+                Bag bag1 = this;
+                Bag bag2 = (Bag) obj;
+                if(bag1.brand == bag2.brand ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }
