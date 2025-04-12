@@ -25,4 +25,21 @@ public class Mountain {
     public int hashCode() {
         return -9876;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Mountain) {
+                System.out.println("Ref instanceOf Mountain");
+                Mountain mountain1 = this;
+                Mountain  mountain2 = (Mountain) obj;
+                if (mountain1.name == mountain2.name && mountain1.height == mountain2.height) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

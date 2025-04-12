@@ -25,4 +25,21 @@ public class LipStick {
     public int hashCode() {
         return 5688;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof LipStick) {
+                System.out.println("Ref instanceOf LipStick");
+                LipStick lipStick1 = this;
+                LipStick  lipStick2 = (LipStick) obj;
+                if (lipStick1.color == lipStick2.color && lipStick2.brand == lipStick1.brand) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

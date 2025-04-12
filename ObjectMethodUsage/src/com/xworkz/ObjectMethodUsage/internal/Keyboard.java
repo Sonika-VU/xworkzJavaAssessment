@@ -1,5 +1,7 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
+import java.security.Key;
+
 public class Keyboard {
     private String brand;
     private boolean isWireless;
@@ -25,4 +27,22 @@ public class Keyboard {
     public int hashCode() {
         return 392;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Keyboard) {
+                System.out.println("Ref instanceOf Keyboard");
+                Keyboard keyboard1 = this;
+                Keyboard  keyboard2 = (Keyboard) obj;
+                if (keyboard1.isWireless == keyboard2.isWireless && keyboard1.price == keyboard2.price) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

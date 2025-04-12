@@ -25,4 +25,22 @@ public class Institute {
     public int hashCode() {
         return 865;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Institute) {
+                System.out.println("Ref instanceOf Institute");
+                Institute institute1 = this;
+                Institute  institute2 = (Institute) obj;
+                if (institute1.name == institute2.name && institute1.location == institute2.location) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

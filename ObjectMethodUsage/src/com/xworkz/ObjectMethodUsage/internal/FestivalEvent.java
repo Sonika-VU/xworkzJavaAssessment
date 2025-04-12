@@ -25,4 +25,21 @@ public class FestivalEvent {
     public int hashCode() {
         return 904384534;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof FestivalEvent){
+                System.out.println("Ref instanceOf FestivalEvent");
+                FestivalEvent festivalEvent1 = this;
+                FestivalEvent festivalEvent2 = (FestivalEvent) obj;
+                if(festivalEvent1.name == festivalEvent2.name && festivalEvent1.location == festivalEvent2.location ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

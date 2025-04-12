@@ -25,4 +25,21 @@ public class Library {
     public int hashCode() {
         return 785;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Library) {
+                System.out.println("Ref instanceOf Library");
+                Library library1 = this;
+                Library  library2 = (Library) obj;
+                if (library1.name == library2.name && library2.isPublic == library2.isPublic) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

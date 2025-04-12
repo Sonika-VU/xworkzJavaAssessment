@@ -25,4 +25,22 @@ public class Gold {
     public int hashCode() {
         return 231250908;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Gold) {
+                System.out.println("Ref instanceOf Gold");
+                Gold gold1 = this;
+                Gold  gold2 = (Gold) obj;
+                if (gold1.ornamentType == gold2.ornamentType && gold1.weight == gold2.weight) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

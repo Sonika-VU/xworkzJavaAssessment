@@ -25,4 +25,21 @@ public class Language {
     public int hashCode() {
         return 3245154;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Language) {
+                System.out.println("Ref instanceOf Language");
+                Language language1 = this;
+                Language  language2 = (Language) obj;
+                if (language1.name == language2.name && language1.isOfficial == language2.isOfficial) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

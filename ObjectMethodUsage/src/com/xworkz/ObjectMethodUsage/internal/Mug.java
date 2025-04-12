@@ -25,4 +25,21 @@ public class Mug {
     public int hashCode() {
         return 63;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Mug) {
+                System.out.println("Ref instanceOf Mug");
+                Mug mug1 = this;
+                Mug  mug2 = (Mug) obj;
+                if (mug1.capacityML == mug2.capacityML && mug1.hasHandle == mug2.hasHandle) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

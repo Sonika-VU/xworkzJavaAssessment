@@ -25,4 +25,22 @@ public class IceCream {
     public int hashCode() {
         return -23134;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof IceCream) {
+                System.out.println("Ref instanceOf IceCream");
+                IceCream iceCream1 = this;
+                IceCream  iceCream2 = (IceCream) obj;
+                if (iceCream1.flavor == iceCream2.flavor && iceCream1.hasNuts == iceCream2.hasNuts) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

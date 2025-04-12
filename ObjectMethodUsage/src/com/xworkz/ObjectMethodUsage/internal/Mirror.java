@@ -25,4 +25,21 @@ public class Mirror {
     public int hashCode() {
         return -8675;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Mirror) {
+                System.out.println("Ref instanceOf Mirror");
+                Mirror mirror1 = this;
+                Mirror  mirror2 = (Mirror) obj;
+                if (mirror1.shape == mirror2.shape && mirror1.height == mirror2.height) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

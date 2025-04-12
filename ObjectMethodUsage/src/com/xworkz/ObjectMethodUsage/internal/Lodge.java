@@ -25,4 +25,21 @@ public class Lodge {
     public int hashCode() {
         return 6859;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Lodge) {
+                System.out.println("Ref instanceOf Lodge");
+                Lodge lodge1 = this;
+                Lodge  lodge2 = (Lodge) obj;
+                if (lodge1.roomCapacity == lodge2.roomCapacity && lodge1.rentPerDay == lodge2.rentPerDay) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

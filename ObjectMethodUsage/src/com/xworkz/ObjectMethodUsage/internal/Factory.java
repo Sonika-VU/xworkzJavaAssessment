@@ -26,5 +26,22 @@ public class Factory {
     public int hashCode() {
         return 2934820;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Factory){
+                System.out.println("Ref instanceOf Factory");
+                Factory factory1 = this;
+                Factory factory2 = (Factory) obj;
+                if(factory1.type == factory2.type && factory1.location == factory2.location ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

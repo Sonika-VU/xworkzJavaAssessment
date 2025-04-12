@@ -25,4 +25,21 @@ public class Lamp {
     public int hashCode() {
         return 2902;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Lamp) {
+                System.out.println("Ref instanceOf Lamp");
+                Lamp lamp1 = this;
+                Lamp  lamp2 = (Lamp) obj;
+                if (lamp1.style == lamp2.style && lamp1.height == lamp2.height) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

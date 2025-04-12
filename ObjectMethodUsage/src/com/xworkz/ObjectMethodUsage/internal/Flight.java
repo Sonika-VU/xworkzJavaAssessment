@@ -25,4 +25,21 @@ public class Flight {
     public int hashCode() {
         return 23432;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Flight){
+                System.out.println("Ref instanceOf Flight");
+                Flight flight1 = this;
+                Flight flight2 = (Flight) obj;
+                if(flight1.airline == flight2.airline && flight1.isInternational == flight2.isInternational ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -25,4 +25,22 @@ public class InsurancePolicy {
     public int hashCode() {
         return -2342;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof InsurancePolicy) {
+                System.out.println("Ref instanceOf InsurancePolicy");
+                InsurancePolicy insurancePolicy1 = this;
+                InsurancePolicy  insurancePolicy2 = (InsurancePolicy) obj;
+                if (insurancePolicy1.amount == insurancePolicy2.amount && insurancePolicy1.durationYears == insurancePolicy2.durationYears) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

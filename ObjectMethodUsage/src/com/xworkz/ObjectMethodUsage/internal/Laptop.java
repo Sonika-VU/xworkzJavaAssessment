@@ -27,4 +27,21 @@ public class Laptop {
     public int hashCode() {
         return 3928401;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Laptop) {
+                System.out.println("Ref instanceOf Laptop");
+                Laptop laptop1 = this;
+                Laptop  laptop2 = (Laptop) obj;
+                if (laptop1.storage == laptop2.storage && laptop1.processor == laptop2.processor) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

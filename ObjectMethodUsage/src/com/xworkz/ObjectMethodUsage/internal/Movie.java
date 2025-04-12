@@ -16,7 +16,7 @@ public class Movie {
     public String toString() {
         return "Movie{" +
                 "name='" + name + '\'' +
-                ", genre='" + hero + '\'' +
+                ", hero='" + hero + '\'' +
                 ", rating=" + rating +
                 '}';
     }
@@ -24,5 +24,22 @@ public class Movie {
     @Override
     public int hashCode() {
         return 365721756;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Movie) {
+                System.out.println("Ref instanceOf Movie");
+                Movie movie1 = this;
+                Movie  movie2 = (Movie) obj;
+                if (movie1.hero == movie2.hero && movie1.rating == movie2.rating) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

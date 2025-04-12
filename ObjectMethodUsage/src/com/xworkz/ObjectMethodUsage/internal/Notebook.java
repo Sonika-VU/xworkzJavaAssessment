@@ -25,4 +25,21 @@ public class Notebook {
     public int hashCode() {
         return 43;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Notebook) {
+                System.out.println("Ref instanceOf Notebook");
+                Notebook notebook1 = this;
+                Notebook  notebook2 = (Notebook) obj;
+                if (notebook1.totalPages == notebook2.totalPages && notebook1.isSpiralBound == notebook2.isSpiralBound) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

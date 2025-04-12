@@ -25,4 +25,21 @@ public class Map {
     public int hashCode() {
         return -78790;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Map) {
+                System.out.println("Ref instanceOf Map");
+                Map map1 = this;
+                Map  map2 = (Map) obj;
+                if (map1.country == map2.country && map2.length == map1.length) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

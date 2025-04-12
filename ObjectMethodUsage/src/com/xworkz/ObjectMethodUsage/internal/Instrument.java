@@ -25,4 +25,22 @@ public class Instrument {
     public int hashCode() {
         return -1;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Instrument) {
+                System.out.println("Ref instanceOf Instrument");
+                Instrument instrument1 = this;
+                Instrument  instrument2 = (Instrument) obj;
+                if (instrument1.name == instrument2.name && instrument1.type == instrument2.type) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

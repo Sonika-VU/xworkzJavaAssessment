@@ -25,4 +25,22 @@ public class Helmet {
     public int hashCode() {
         return -4536;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Helmet) {
+                System.out.println("Ref instanceOf Helmet");
+                Helmet helmet1 = this;
+                Helmet  helmet2 = (Helmet) obj;
+                if (helmet1.type == helmet2.type && helmet1.isFullFace == helmet2.isFullFace) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

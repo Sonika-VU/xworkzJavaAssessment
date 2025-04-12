@@ -14,7 +14,7 @@ public class Runner {
         Bag bag = new Bag("American Tourist", "Blue", 500);
         Chair chair = new Chair("Wood", "Brown", 1000);
         Laptop laptop = new Laptop("Hp" , 100, "I7");
-        TShirt tShirt = new TShirt("XS", "White", 100);
+//        TShirt tShirt = new TShirt("XS", "White", 100);
         LipStick lipStick = new LipStick("Mars", "Red", 300);
         Television television = new Television("Samsung" ,32, 30000);
         Gold gold = new Gold("Chain", 10, 200000);
@@ -88,6 +88,7 @@ public class Runner {
         Passport passport = new Passport("Sonika", "IND120", 2040);
         ComicBook comicBook = new ComicBook("Sinchan : The warrior", "Sichan", 14322);
         Antique antique = new Antique("Crown", 200, "Italy");
+        Antique antique1 = new Antique("Crown", 1000, "Italy");
         AppUpdate appUpdate = new AppUpdate("2.5", "08-04-2025", true);
         Capsule capsule = new Capsule("Paracetamol", "Fever", 2);
         Map map = new Map("India", 2600, true);
@@ -124,8 +125,8 @@ public class Runner {
         System.out.println("Code : "+chair.hashCode());
         System.out.println("9. Laptop : "+laptop);
         System.out.println("Code : "+laptop.hashCode());
-        System.out.println("10. TShirt : "+tShirt);
-        System.out.println("Code : "+tShirt.hashCode());
+//        System.out.println("10. TShirt : "+tShirt);
+//        System.out.println("Code : "+tShirt.hashCode());
         System.out.println("11. LipStick : "+lipStick);
         System.out.println("Code : "+lipStick.hashCode());
         System.out.println("12. Television : "+television);
@@ -272,6 +273,7 @@ public class Runner {
         System.out.println("Code : "+comicBook.hashCode());
         System.out.println("83. Antique : "+antique);
         System.out.println("Code : " +antique.hashCode());
+        System.out.println("\t \t \tSame : "+(antique.equals(antique1)));
         System.out.println("84. AppUpdate : "+appUpdate);
         System.out.println("Code : "+appUpdate.hashCode());
         System.out.println("85. Capsule : "+capsule);

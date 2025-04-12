@@ -25,4 +25,21 @@ public class Gadget {
     public int hashCode() {
         return 3241;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof Gadget){
+                System.out.println("Ref instanceOf Gadget");
+                Gadget gadget1 = this;
+                Gadget gadget2 = (Gadget) obj;
+                if(gadget1.type == gadget2.type && gadget1.weight == gadget2.weight ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

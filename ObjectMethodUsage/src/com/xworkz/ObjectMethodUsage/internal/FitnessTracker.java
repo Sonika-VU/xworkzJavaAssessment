@@ -25,4 +25,21 @@ public class FitnessTracker {
     public int hashCode() {
         return 23901293;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            System.out.println("ref is not null");
+            if(obj instanceof FitnessTracker){
+                System.out.println("Ref instanceOf FitnessTracker");
+                FitnessTracker fitnessTracker1 = this;
+                FitnessTracker fitnessTracker2 = (FitnessTracker) obj;
+                if(fitnessTracker1.waterResistant == fitnessTracker2.waterResistant && fitnessTracker1.batteryLifeHours == fitnessTracker2.batteryLifeHours ){
+                    System.out.println("Both are same");
+                    return  true;
+                }
+            }
+        }
+        return false;
+    }
 }

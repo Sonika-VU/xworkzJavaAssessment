@@ -25,4 +25,22 @@ public class Game {
     public int hashCode() {
         return 213112;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Game) {
+                System.out.println("Ref instanceOf Game");
+                Game game1 = this;
+                Game  game2 = (Game) obj;
+                if (game1.name == game2.name && game2.isOnline == game1.isOnline) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

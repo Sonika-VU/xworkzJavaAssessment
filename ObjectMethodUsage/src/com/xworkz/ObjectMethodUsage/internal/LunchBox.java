@@ -25,5 +25,22 @@ public class LunchBox {
     public int hashCode() {
         return 4890;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof LunchBox) {
+                System.out.println("Ref instanceOf LunchBox");
+                LunchBox lunchBox1 = this;
+                LunchBox  lunchBox2 = (LunchBox) obj;
+                if (lunchBox1.capacityML == lunchBox2.capacityML && lunchBox1.isMicrowaveSafe == lunchBox2.isMicrowaveSafe) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

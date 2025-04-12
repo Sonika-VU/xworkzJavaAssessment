@@ -1,5 +1,6 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
+
 public class Painting {
     private String artist;
     private String title;
@@ -24,5 +25,22 @@ public class Painting {
     @Override
     public int hashCode() {
         return 143;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Painting) {
+                System.out.println("Ref instanceOf Painting");
+                Painting painting1 = this;
+                Painting  painting2 = (Painting) obj;
+                if (painting1.artist == painting2.artist && painting1.title == painting2.title) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
