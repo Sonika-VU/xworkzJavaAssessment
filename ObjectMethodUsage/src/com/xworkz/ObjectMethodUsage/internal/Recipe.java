@@ -25,4 +25,21 @@ public class Recipe {
     public int hashCode() {
         return 57654;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Recipe) {
+                System.out.println("Ref instanceOf Recipe");
+                Recipe recipe1 = this;
+                Recipe  recipe2 = (Recipe) obj;
+                if (recipe1.isVegetarian == recipe2.isVegetarian && recipe2.dishName == recipe1.dishName && recipe1.prepTimeMinutes == recipe2.prepTimeMinutes) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

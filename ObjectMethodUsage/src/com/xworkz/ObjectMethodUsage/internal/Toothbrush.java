@@ -25,4 +25,21 @@ public class Toothbrush {
     public int hashCode() {
         return 893;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Toothbrush) {
+                System.out.println("Ref instanceOf Toothbrush");
+                Toothbrush toothbrush1 = this;
+                Toothbrush  toothbrush2 = (Toothbrush) obj;
+                if (toothbrush2.isElectric == toothbrush1.isElectric && toothbrush2.brand == toothbrush1.brand && toothbrush2.color == toothbrush1.color) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -25,4 +25,21 @@ public class Parcel {
     public int hashCode() {
         return 243;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Parcel) {
+                System.out.println("Ref instanceOf Parcel");
+                Parcel parcel1 = this;
+                Parcel  parcel2 = (Parcel) obj;
+                if (parcel1.sender == parcel2.sender && parcel1.receiver == parcel2.receiver && parcel1.weight == parcel2.weight) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

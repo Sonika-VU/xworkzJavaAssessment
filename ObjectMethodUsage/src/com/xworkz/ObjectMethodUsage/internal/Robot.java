@@ -25,4 +25,21 @@ public class Robot {
     public int hashCode() {
         return 4322;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Robot) {
+                System.out.println("Ref instanceOf Robot");
+                Robot robot1 = this;
+                Robot  robot2 = (Robot) obj;
+                if (robot1.isAutonomous == robot2.isAutonomous && robot1.function == robot2.function && robot1.model == robot2.model) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

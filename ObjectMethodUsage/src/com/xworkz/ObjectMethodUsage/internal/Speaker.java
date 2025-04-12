@@ -25,4 +25,21 @@ public class Speaker {
     public int hashCode() {
         return 10000;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Speaker) {
+                System.out.println("Ref instanceOf Speaker");
+                Speaker speaker1 = this;
+                Speaker  speaker2 = (Speaker) obj;
+                if (speaker2.isBluetooth == speaker1.isBluetooth && speaker2.brand == speaker1.brand && speaker2.wattage == speaker1.wattage) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

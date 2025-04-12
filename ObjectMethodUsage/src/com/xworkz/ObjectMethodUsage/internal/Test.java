@@ -25,4 +25,21 @@ public class Test {
     public int hashCode() {
         return 9807;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Test) {
+                System.out.println("Ref instanceOf Test");
+                Test test1 = this;
+                Test  test2 = (Test) obj;
+                if (test2.maxMarks == test1.maxMarks && test2.date == test1.date && test2.mode == test1.mode) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -25,4 +25,21 @@ public class Slipper {
     public int hashCode() {
         return 241;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Slipper) {
+                System.out.println("Ref instanceOf Slipper");
+                Slipper slipper1 = this;
+                Slipper  slipper2 = (Slipper) obj;
+                if (slipper2.brand == slipper1.brand && slipper2.size == slipper1.size && slipper2.material == slipper1.material) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

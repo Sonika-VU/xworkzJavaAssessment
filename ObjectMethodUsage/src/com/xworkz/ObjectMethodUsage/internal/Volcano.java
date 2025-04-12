@@ -25,4 +25,21 @@ public class Volcano {
     public int hashCode() {
         return 1000;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Volcano) {
+                System.out.println("Ref instanceOf Volcano");
+                Volcano volcano1 = this;
+                Volcano  volcano2 = (Volcano) obj;
+                if (volcano2.isActive == volcano1.isActive && volcano2.name == volcano1.name && volcano2.location ==volcano1.location) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

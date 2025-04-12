@@ -1,3 +1,4 @@
+
 package com.xworkz.ObjectMethodUsage.internal;
 
 public class Television {
@@ -24,5 +25,22 @@ public class Television {
     @Override
     public int hashCode() {
         return 30000;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Television) {
+                System.out.println("Ref instanceOf Television");
+                Television television1 = this;
+                Television  television2 = (Television) obj;
+                if (television2.cost == television1.cost && television2.inch == television1.inch && television2.company == television1.company) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

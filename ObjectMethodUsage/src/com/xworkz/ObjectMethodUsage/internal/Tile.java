@@ -25,4 +25,21 @@ public class Tile {
     public int hashCode() {
         return 2341;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Tile) {
+                System.out.println("Ref instanceOf Tile");
+                Tile tile1 = this;
+                Tile  tile2 = (Tile) obj;
+                if (tile2.isBreakable == tile1.isBreakable && tile2.width == tile1.width && tile2.material == tile1.material) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

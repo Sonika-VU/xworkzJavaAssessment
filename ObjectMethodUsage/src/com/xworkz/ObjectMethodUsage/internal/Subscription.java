@@ -25,4 +25,21 @@ public class Subscription {
     public int hashCode() {
         return 999;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Subscription) {
+                System.out.println("Ref instanceOf Subscription");
+                Subscription subscription1 = this;
+                Subscription  subscription2 = (Subscription) obj;
+                if (subscription2.planType == subscription1.planType && subscription2.userName == subscription1.userName && subscription2.validityDays == subscription1.validityDays) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

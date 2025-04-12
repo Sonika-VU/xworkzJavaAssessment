@@ -25,4 +25,21 @@ public class Tyre {
     public int hashCode() {
         return 21891;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Tyre) {
+                System.out.println("Ref instanceOf Tyre");
+                Tyre tyre1 = this;
+                Tyre  tyre2 = (Tyre) obj;
+                if (tyre2.price == tyre1.price && tyre2.forVehicle == tyre1.forVehicle && tyre2.material == tyre1.material) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

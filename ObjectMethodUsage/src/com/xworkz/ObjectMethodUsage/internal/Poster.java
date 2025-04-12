@@ -1,5 +1,6 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
+
 public class Poster {
     private  String size;
     private int cost;
@@ -24,5 +25,22 @@ public class Poster {
     @Override
     public int hashCode() {
         return 436;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Poster) {
+                System.out.println("Ref instanceOf Poster");
+                Poster  poster1 = this;
+                Poster  poster2 = (Poster) obj;
+                if (poster1.size == poster2.size && poster1.cost == poster2.cost && poster1.isColor == poster2.isColor) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

@@ -25,4 +25,21 @@ public class ThemePark {
     public int hashCode() {
         return -8709;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof ThemePark) {
+                System.out.println("Ref instanceOf ThemePark");
+                ThemePark themePark1 = this;
+                ThemePark  themePark2 = (ThemePark) obj;
+                if (themePark2.hasWaterPark == themePark1.hasWaterPark && themePark1.parkName == themePark1.parkName && themePark2.numberOfRides == themePark1.numberOfRides) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

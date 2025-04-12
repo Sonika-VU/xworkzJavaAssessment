@@ -25,4 +25,21 @@ public class Tablet {
     public int hashCode() {
         return -1232;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Tablet) {
+                System.out.println("Ref instanceOf Tablet");
+                Tablet tablet1 = this;
+                Tablet tablet2  = (Tablet) obj;
+                if (tablet2.brand == tablet1.brand && tablet2.screenSize == tablet1.screenSize && tablet2.storageGB == tablet1.storageGB) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

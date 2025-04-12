@@ -25,5 +25,22 @@ public class Refrigerator {
     public int hashCode() {
         return 574;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Refrigerator) {
+                System.out.println("Ref instanceOf Refrigerator");
+                Refrigerator refrigerator1 = this;
+                Refrigerator  refrigerator2 = (Refrigerator) obj;
+                if (refrigerator1.hasFreezer == refrigerator2.hasFreezer && refrigerator1.brand == refrigerator2.brand && refrigerator1.capacity == refrigerator2.capacity) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

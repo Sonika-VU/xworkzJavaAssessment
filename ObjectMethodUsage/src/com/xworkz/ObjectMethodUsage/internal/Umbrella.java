@@ -25,4 +25,21 @@ public class Umbrella {
     public int hashCode() {
         return 40000;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Umbrella) {
+                System.out.println("Ref instanceOf Umbrella");
+                Umbrella umbrella1 = this;
+                Umbrella  umbrella2 = (Umbrella) obj;
+                if (umbrella2.isAutomatic == umbrella1.isAutomatic && umbrella2.color == umbrella1.color && umbrella2.size == umbrella1.size) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

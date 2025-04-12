@@ -25,5 +25,22 @@ public class WashingMachine {
     public int hashCode() {
         return 2355;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof WashingMachine) {
+                System.out.println("Ref instanceOf WashingMackine");
+                WashingMachine washingMachine1 = this;
+                WashingMachine  washingMachine2 = (WashingMachine) obj;
+                if (washingMachine2.isFrontLoad == washingMachine1.isFrontLoad  && washingMachine2.loadCapacityKG == washingMachine1.loadCapacityKG &&washingMachine2.brand == washingMachine1.brand) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

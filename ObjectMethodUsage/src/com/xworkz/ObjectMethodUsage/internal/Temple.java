@@ -25,4 +25,21 @@ public class Temple {
     public int hashCode() {
         return 992;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("ref is not null");
+            if (obj instanceof Temple) {
+                System.out.println("Ref instanceOf Temple");
+                Temple temple1 = this;
+                Temple  temple2 = (Temple) obj;
+                if (temple2.age == temple1.age && temple2.name == temple1.name && temple2.location == temple1.location) {
+                    System.out.println("Both are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
