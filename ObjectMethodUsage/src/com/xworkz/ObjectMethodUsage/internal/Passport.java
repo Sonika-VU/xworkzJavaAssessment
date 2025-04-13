@@ -1,6 +1,6 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
-public class Passport {
+public class  Passport {
     private String holderName;
     private String passportNumber;
     private int expiryYear;
