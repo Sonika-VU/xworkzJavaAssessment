@@ -31,7 +31,7 @@ public class Eagle {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Eagle){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Eagle");
                 Eagle eagle1 = this;
                 Eagle eagle2 = (Eagle) obj;
                 if(eagle1.color == eagle2.color ){
