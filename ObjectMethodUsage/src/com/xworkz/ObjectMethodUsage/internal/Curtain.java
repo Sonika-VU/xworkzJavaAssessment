@@ -31,7 +31,7 @@ public class Curtain {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Curtain){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Curtain");
                 Curtain curtain1 = this;
                 Curtain curtain2 = (Curtain) obj;
                 if(curtain1.fabric == curtain2.fabric ){
