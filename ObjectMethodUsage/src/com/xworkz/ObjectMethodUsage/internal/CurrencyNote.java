@@ -31,7 +31,7 @@ public class CurrencyNote {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof CurrencyNote){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf CurrencyNote");
                 CurrencyNote currencyNote1 = this;
                 CurrencyNote currencyNote2 = (CurrencyNote) obj;
                 if(currencyNote1.value == currencyNote2.value ){
