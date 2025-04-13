@@ -31,7 +31,7 @@ public class Employee {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Employee){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Employee");
                 Employee employee1 = this;
                 Employee employee2 = (Employee) obj;
                 if(employee1.department == employee2.department ){
