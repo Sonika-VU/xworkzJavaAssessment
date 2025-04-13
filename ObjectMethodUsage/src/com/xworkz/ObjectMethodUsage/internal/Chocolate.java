@@ -31,7 +31,7 @@ public class Chocolate {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Chocolate){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Chocolate");
                 Chocolate chocolate1 = this;
                 Chocolate chocolate2 = (Chocolate) obj;
                 if(chocolate1.name == chocolate2.name ){

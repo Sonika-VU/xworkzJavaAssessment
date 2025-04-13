@@ -27,7 +27,7 @@ public class Chair {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Chair){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Chair");
                 Chair chair1 = this;
                 Chair chair2 = (Chair) obj;
                 if(chair2.material == chair1.material ){

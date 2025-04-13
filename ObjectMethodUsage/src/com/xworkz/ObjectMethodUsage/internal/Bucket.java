@@ -31,7 +31,7 @@ public class Bucket {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Bucket){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Bucket");
                 Bucket bucket1 = this;
                 Bucket bucket2 = (Bucket) obj;
                 if(bucket1.capacity == bucket2.capacity ){

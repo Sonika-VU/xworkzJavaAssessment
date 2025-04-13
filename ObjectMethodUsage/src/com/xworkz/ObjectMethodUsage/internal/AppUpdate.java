@@ -31,7 +31,7 @@ public class AppUpdate {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof AppUpdate){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf AppUpdate");
                 AppUpdate appUpdate1 = this;
                 AppUpdate appUpdate2 = (AppUpdate) obj;
                 if(appUpdate1.version == appUpdate2.version ){

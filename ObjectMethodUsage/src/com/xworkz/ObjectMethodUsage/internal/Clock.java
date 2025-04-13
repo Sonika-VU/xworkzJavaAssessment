@@ -31,7 +31,7 @@ public class Clock {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Clock){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Clock");
                 Clock clock1 = this;
                 Clock clock2 = (Clock) obj;
                 if(clock1.brand == clock2.brand ){

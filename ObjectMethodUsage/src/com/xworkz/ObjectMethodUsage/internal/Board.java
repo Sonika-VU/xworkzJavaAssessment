@@ -31,7 +31,7 @@ public class Board {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Board){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Board");
                 Board board1 = this;
                 Board board2 = (Board) obj;
                 if(board1.color == board2.color ){

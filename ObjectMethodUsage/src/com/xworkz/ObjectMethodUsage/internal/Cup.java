@@ -31,7 +31,7 @@ public class Cup {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Cup){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Cup");
                 Cup cup1 = this;
                 Cup cup2 = (Cup) obj;
                 if(cup1.material == cup2.material ){

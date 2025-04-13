@@ -32,7 +32,7 @@ public class App {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof App){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf App");
                 App app1 = this;
                 App app2 = (App) obj;
                 if(app1.appName == app2.appName ){

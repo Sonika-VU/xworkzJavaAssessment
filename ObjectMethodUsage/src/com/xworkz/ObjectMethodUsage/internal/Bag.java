@@ -31,7 +31,7 @@ public class Bag {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Bag){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Bag");
                 Bag bag1 = this;
                 Bag bag2 = (Bag) obj;
                 if(bag1.brand == bag2.brand ){

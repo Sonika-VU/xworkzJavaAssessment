@@ -31,7 +31,7 @@ public class Bangle {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Bangle){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Bangle");
                 Bangle bangle1 = this;
                 Bangle bangle2 = (Bangle) obj;
                 if(bangle1.material == bangle2.material ){

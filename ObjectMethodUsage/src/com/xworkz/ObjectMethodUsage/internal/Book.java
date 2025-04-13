@@ -31,7 +31,7 @@ public class Book {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Book){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Book");
                 Book book1 = this;
                 Book book2 = (Book) obj;
                 if(book1.brand == book2.brand ){

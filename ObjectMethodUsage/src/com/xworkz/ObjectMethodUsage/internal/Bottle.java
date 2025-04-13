@@ -31,7 +31,7 @@ public class Bottle {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Bottle){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Bottle ");
                 Bottle bottle1 = this;
                 Bottle bottle2 = (Bottle) obj;
                 if(bottle1.capacity == bottle2.capacity ){

@@ -31,7 +31,7 @@ public class BoardGame {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof BoardGame){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf BoardGame");
                 BoardGame boardGame1 = this;
                 BoardGame boardGame2 = (BoardGame) obj;
                 if(boardGame1.gameName == boardGame2.gameName ){

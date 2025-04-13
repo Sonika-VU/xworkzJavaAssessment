@@ -31,7 +31,7 @@ public class Camera {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Camera){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Camera");
                 Camera camera1 = this;
                 Camera camera2 = (Camera) obj;
                 if(camera1.megapixel == camera2.megapixel ){

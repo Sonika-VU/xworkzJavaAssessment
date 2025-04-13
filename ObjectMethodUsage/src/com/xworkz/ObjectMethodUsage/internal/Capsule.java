@@ -31,7 +31,7 @@ public class Capsule {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Capsule){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Capsule");
                 Capsule capsule1 = this;
                 Capsule capsule2 = (Capsule) obj;
                 if(capsule1.forDisease == capsule2.forDisease ){

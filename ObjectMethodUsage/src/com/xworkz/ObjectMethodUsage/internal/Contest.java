@@ -31,7 +31,7 @@ public class Contest {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Contest){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Contest");
                 Contest contest1 = this;
                 Contest contest2 = (Contest) obj;
                 if(contest1.type == contest2.type ){

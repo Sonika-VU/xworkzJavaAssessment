@@ -31,7 +31,7 @@ public class City {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof City){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf City");
                 City city1 = this;
                 City city2 = (City) obj;
                 if(city1.name == city2.name ){

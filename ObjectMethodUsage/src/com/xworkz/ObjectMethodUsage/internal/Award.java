@@ -31,7 +31,7 @@ public class Award {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Award){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Award");
                 Award award1 = this;
                 Award award2 = (Award) obj;
                 if(award1.awardName == award2.awardName ){

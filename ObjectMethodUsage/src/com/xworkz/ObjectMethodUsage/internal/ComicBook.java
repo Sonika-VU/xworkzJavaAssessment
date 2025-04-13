@@ -30,7 +30,7 @@ public class ComicBook {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof App){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf ComicBook");
                 ComicBook comicBook1 = this;
                 ComicBook comicBook2 = (ComicBook) obj;
                 if(comicBook1.title == comicBook2.title ){

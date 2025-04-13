@@ -31,7 +31,7 @@ public class Bike {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Bike){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Bike");
                 Bike bike1 = this;
                 Bike bike2 = (Bike) obj;
                 if(bike1.brand == bike2.brand ){

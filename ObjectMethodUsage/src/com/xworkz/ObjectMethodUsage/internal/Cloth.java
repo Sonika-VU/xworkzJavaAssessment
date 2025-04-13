@@ -30,7 +30,7 @@ public class Cloth {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof App){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Cloth");
                 Cloth cloth1 = this;
                 Cloth cloth2 = (Cloth) obj;
                 if(cloth1.material == cloth2.material ){
