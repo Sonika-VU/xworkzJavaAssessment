@@ -32,7 +32,7 @@ public class Door {
         if(obj != null){
             System.out.println("ref is not null");
             if(obj instanceof Door){
-                System.out.println("Ref instanceOf Antique");
+                System.out.println("Ref instanceOf Door");
                 Door door1 = this;
                 Door door2 = (Door) obj;
                 if(door1.material == door2.material ){
