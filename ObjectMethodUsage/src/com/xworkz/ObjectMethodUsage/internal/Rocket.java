@@ -1,13 +1,13 @@
 package com.xworkz.ObjectMethodUsage.internal;
 
 public class Rocket {
-    private String name;
+    private final String name = "Saturn";
     private double fuelCapacity;
     private boolean isReusable;
 
     public Rocket(String name, double fuelCapacity, boolean isReusable) {
         System.out.println("String, double, boolean-arg const of Rocket");
-        this.name = name;
+//        this.name = name;
         this.fuelCapacity = fuelCapacity;
         this.isReusable = isReusable;
     }
