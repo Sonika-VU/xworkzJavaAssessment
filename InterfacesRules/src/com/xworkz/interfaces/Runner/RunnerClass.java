@@ -5,6 +5,7 @@ import com.xworkz.interfaces.implementors.HomeAlarm;
 import com.xworkz.interfaces.implementors.KitchenMicrowave;
 import com.xworkz.interfaces.implementors.SmartLight;
 import com.xworkz.interfaces.twoImpClasses.*;
+import com.xworkz.interfaces.twoImpClasses.Company;
 import javafx.scene.effect.Light;
 
 public class RunnerClass {
@@ -138,6 +139,7 @@ public class RunnerClass {
         airConditioner.powerOff();
         airConditioner.powerOn();
         airConditioner.swing();
+        airConditioner.fix();
         System.out.println("====================================");
         gameController1.resumeGame();
         gameController1.pauseGame();
