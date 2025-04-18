@@ -5,6 +5,8 @@ public interface AirConditioner {
     void powerOff();
     void swing();
 
+
+
     default void fix(){
         System.out.println("Running fix in AirConditioner");
     }
