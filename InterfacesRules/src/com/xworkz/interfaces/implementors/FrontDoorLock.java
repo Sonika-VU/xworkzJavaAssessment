@@ -17,4 +17,9 @@ public class FrontDoorLock implements SmartLock {
     public void checkStatus() {
         System.out.println("Running checkStatus in FrontDoorLock");
     }
+
+    @Override
+    public void fix() {
+        System.out.println("Running fix in FrontDoorLock");
+    }
 }

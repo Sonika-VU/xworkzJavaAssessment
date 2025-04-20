@@ -4,4 +4,8 @@ public interface BatteryCharger {
     void startCharging();
     void stopCharging();
     void showBatteryLevel();
+
+    default void store(){
+
+    }
 }

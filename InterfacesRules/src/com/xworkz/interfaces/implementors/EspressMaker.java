@@ -17,4 +17,10 @@ public class EspressMaker implements CoffeeMachine {
     public void clean() {
         System.out.println("Running clean in EspressoMaker");
     }
+
+    @Override
+    public void start() {
+        System.out.println("Running start in EspressMaker");
+
+    }
 }

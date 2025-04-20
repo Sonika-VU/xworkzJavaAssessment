@@ -17,4 +17,9 @@ public class EchoSpeaker implements SmartSpeaker {
     public void tellTime() {
         System.out.println("Running tellTime in EchoSpeaker");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in EchoSpeaker");
+    }
 }

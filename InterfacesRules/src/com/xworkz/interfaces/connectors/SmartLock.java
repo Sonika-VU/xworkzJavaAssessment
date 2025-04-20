@@ -4,4 +4,8 @@ public interface SmartLock {
     void lock();
     void unlock();
     void checkStatus();
+
+    default void fix(){
+
+    }
 }

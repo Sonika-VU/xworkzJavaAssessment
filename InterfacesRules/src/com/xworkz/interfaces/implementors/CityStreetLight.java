@@ -17,4 +17,9 @@ public class CityStreetLight implements StreetLight {
     public void blink() {
         System.out.println("Running blink in CityStreetLight");
     }
+
+    @Override
+    public void changeIntensity() {
+            System.out.println("Running changeIntensity in SmartLight");
+    }
 }

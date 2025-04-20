@@ -17,4 +17,9 @@ public class CarRadio implements Radio {
     public void changeStation() {
         System.out.println("Running changeStation in CarRadio");
     }
+
+    @Override
+    public void adjustSound() {
+        System.out.println("Running adjustSound in CarRadio");
+    }
 }

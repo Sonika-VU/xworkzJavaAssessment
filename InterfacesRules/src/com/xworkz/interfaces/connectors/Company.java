@@ -6,4 +6,7 @@ public interface Company {
     void signOff();
     void deadline();
 
+    default void completeTask(){
+
+    }
 }

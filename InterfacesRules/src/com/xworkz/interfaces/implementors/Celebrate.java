@@ -17,4 +17,9 @@ public class Celebrate implements Calender {
     public void festival() {
 
     }
+
+    @Override
+    public void timing() {
+
+    }
 }

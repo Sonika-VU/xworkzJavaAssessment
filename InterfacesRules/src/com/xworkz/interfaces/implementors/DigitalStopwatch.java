@@ -18,4 +18,9 @@ public class DigitalStopwatch implements StopWatch {
     public void reset() {
         System.out.println("Running reset in DigitalStopwatch");
     }
+
+    @Override
+    public void display() {
+        System.out.println("Running display in DigitalStopWatch");
+    }
 }

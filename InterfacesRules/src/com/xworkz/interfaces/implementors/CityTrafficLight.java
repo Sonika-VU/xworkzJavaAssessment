@@ -17,4 +17,10 @@ public class CityTrafficLight implements TrafficLight {
     public void green() {
         System.out.println("Running green in CityTrafficLight");
     }
+
+    @Override
+    public void checkTime() {
+        System.out.println("Running checkTime in CityTrafficLight");
+
+    }
 }

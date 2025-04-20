@@ -18,4 +18,9 @@ public class Employee implements Company {
     public void deadline() {
 
     }
+
+    @Override
+    public void completeTask() {
+        Company.super.completeTask();
+    }
 }

@@ -17,4 +17,10 @@ public class DigitalAlarm implements AlarmClock {
     public void snooze() {
         System.out.println("Running snooze in DigitalAlarm");
     }
+
+    @Override
+    public void tellTime() {
+        System.out.println("Running tellTime in DigitalAlarm");
+
+    }
 }

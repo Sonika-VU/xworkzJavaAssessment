@@ -17,4 +17,9 @@ public class FastCharger implements BatteryCharger {
     public void showBatteryLevel() {
         System.out.println("Running showBatteryLevel in FastCharger");
     }
+
+    @Override
+    public void store() {
+        System.out.println("Running store in FastCharger");
+    }
 }

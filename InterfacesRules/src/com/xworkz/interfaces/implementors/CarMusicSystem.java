@@ -17,4 +17,9 @@ public class CarMusicSystem implements MusicSystem {
     public void shuffleSongs() {
         System.out.println("Running shuffleSongs in CarMusicSystem");
     }
+
+    @Override
+    public void adjustSound() {
+        System.out.println("Running adjustSound in CarMusicSystem");
+    }
 }

@@ -17,4 +17,9 @@ public class FitnessWatch implements SmartWatch {
     public void measureHeartRate() {
         System.out.println("Running measureHeartRate in FitnessWatch");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in FitnessWatch");
+    }
 }

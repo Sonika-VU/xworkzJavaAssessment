@@ -17,4 +17,9 @@ public class DigitalCamera implements Camera {
     public void zoom() {
         System.out.println("Running zoom in DigitalCamera");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in digitalCamera");
+    }
 }

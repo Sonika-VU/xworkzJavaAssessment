@@ -17,4 +17,9 @@ public class DeliveryDrone implements Drone {
     public void land() {
         System.out.println("Running land in DeliveryDrone");
     }
+
+    @Override
+    public void capture() {
+
+    }
 }

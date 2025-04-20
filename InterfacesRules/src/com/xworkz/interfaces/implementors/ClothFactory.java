@@ -4,7 +4,7 @@ import com.xworkz.interfaces.connectors.Factory;
 
 public class ClothFactory implements Factory {
     @Override
-    public void takePermession() {
+    public void takePermission() {
 
     }
 
@@ -15,6 +15,11 @@ public class ClothFactory implements Factory {
 
     @Override
     public void manufacture() {
+
+    }
+
+    @Override
+    public void sell() {
 
     }
 }

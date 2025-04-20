@@ -17,4 +17,9 @@ public class CropSprayer implements SprayingSystem {
     public void shutdownSystem() {
         System.out.println("Running shutdownSystem in CropSprayer");
     }
+
+    @Override
+    public void charge() {
+
+    }
 }
