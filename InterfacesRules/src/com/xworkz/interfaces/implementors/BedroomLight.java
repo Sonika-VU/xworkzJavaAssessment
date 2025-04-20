@@ -17,4 +17,9 @@ public class BedroomLight implements SmartLight {
     public void changeColor() {
         System.out.println("Running changeColor in BedroomLight");
     }
+
+    @Override
+    public void changeIntensity() {
+        System.out.println("Running changeIntensity in BedroomLight");
+    }
 }

@@ -6,4 +6,7 @@ public interface Speaker {
     void increaseVolume();
     void decreaseVolume();
 
+    default void connect(){
+        System.out.println("Running connect in Speaker");
+    }
 }

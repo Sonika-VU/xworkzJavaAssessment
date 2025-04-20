@@ -17,4 +17,9 @@ public class ArunIcecream implements IcecreamFactory {
     public void addColor() {
 
     }
+
+    @Override
+    public void addTopings() {
+        System.out.println("Running addTopings in ArunIcecream");
+    }
 }

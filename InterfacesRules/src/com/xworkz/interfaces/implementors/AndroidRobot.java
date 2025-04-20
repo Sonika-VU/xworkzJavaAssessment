@@ -17,4 +17,9 @@ public class AndroidRobot implements Robot {
     public void recharge() {
         System.out.println("Running recharge in AndroidRobot");
     }
+
+    @Override
+    public void makeTask() {
+        System.out.println("Running makeTask in AndroidRobot");
+    }
 }

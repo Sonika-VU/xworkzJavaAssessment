@@ -17,4 +17,9 @@ public class AutoVac implements RobotVacuum {
     public void emptyDustbin() {
         System.out.println("Running emptyDustbin in AutoVac");
     }
+
+    @Override
+    public void sweep() {
+        System.out.println("Running sweep in AutoVac");
+    }
 }

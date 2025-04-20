@@ -17,4 +17,9 @@ public class Artist implements Rock {
     public void paint() {
 
     }
+
+    @Override
+    public void construct() {
+        System.out.println("Running construct in Artist");
+    }
 }

@@ -17,4 +17,9 @@ public class BoschDishwasher implements Dishwasher {
     public void dryDishes() {
         System.out.println("Running dryDishes in BoschDishwasher");
     }
+
+    @Override
+    public void adjustWaterFlow() {
+        System.out.println("Running adjustWaterFlow in BoschDishwasher");
+    }
 }

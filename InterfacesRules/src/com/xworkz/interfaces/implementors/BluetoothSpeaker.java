@@ -18,4 +18,9 @@ public class BluetoothSpeaker implements Speaker {
     public void decreaseVolume() {
         System.out.println("Running decreaseVolume in BluetoothSpeaker");
     }
+
+    @Override
+    public void connect() {
+        System.out.println("Running connect in Speaker");
+    }
 }

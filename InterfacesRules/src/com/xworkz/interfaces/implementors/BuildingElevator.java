@@ -17,4 +17,9 @@ public class BuildingElevator implements Elevator {
     public void stop() {
         System.out.println("Running stop in BuildingElevator");
     }
+
+    @Override
+    public void start() {
+        System.out.println("Running start in BuildingElevator");
+    }
 }

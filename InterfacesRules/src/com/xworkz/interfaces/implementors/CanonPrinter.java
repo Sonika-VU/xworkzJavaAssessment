@@ -17,4 +17,9 @@ public class CanonPrinter implements InkjetPrinter {
     public void checkInkLevel() {
         System.out.println("Running checkInkLevel in CanonPrinter");
     }
+
+    @Override
+    public void checkPaper() {
+        System.out.println("Running checkPaper in CanonPrinter");
+    }
 }

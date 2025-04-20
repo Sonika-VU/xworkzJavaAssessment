@@ -18,4 +18,9 @@ public class Car implements VehicleSystem {
     public void accelerate() {
         System.out.println("Running accelerate in Car");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Running clean in Car");
+    }
 }
