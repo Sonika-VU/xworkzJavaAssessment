@@ -17,4 +17,11 @@ public class RetailScanner implements BarcodeScanner {
     public void calibrate() {
         System.out.println("Running calibrate in RetailScanner");
     }
+
+    @Override
+    public void setNumber() {
+        System.out.println("Running setNumber in RetailScanner");
+
+    }
 }
+

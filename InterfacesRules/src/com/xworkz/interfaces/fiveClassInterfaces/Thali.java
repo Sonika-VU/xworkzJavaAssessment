@@ -33,8 +33,9 @@ public class Thali implements Factory, FoodOrganization, Camera, FireAlarm, Elec
 
     }
 
+
     @Override
-    public void takePermession() {
+    public void takePermission() {
 
     }
 

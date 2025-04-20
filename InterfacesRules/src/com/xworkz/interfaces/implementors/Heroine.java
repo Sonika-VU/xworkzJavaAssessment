@@ -17,4 +17,9 @@ public class Heroine implements Parlor {
     public void pedicure() {
 
     }
+
+    @Override
+    public void makeUp() {
+        System.out.println("Running makeUp in Heroine");
+    }
 }

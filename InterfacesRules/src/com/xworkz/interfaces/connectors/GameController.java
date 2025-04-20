@@ -5,4 +5,7 @@ public interface GameController {
     void pauseGame();
     void resumeGame();
 
+    default void adjustTiming(){
+
+    }
 }

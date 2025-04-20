@@ -4,4 +4,6 @@ public interface FireAlarm {
     void detectSmoke();
     void triggerAlarm();
     void resetAlarm();
+
+    default void sprayWater(){}
 }

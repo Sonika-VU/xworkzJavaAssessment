@@ -13,6 +13,8 @@ public class WaterHeater implements Heater {
         System.out.println("Running turnOff in WaterHeater");
     }
 
+
+
     @Override
     public void setToMax() {
         System.out.println("Running setTOMax in WaterHeater");

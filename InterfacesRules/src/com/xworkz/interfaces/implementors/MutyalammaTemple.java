@@ -17,4 +17,9 @@ public class MutyalammaTemple implements Temple {
     public void donate() {
 
     }
+
+    @Override
+    public void makePooja() {
+
+    }
 }

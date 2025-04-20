@@ -6,4 +6,5 @@ public interface BarcodeScanner {
     void resetScanner();
     void calibrate();
 
+    default void setNumber(){}
 }

@@ -17,4 +17,9 @@ public class SmartTV implements SmartDevice {
     public void restart() {
         System.out.println("Running restart in SmartTv");
     }
+
+    @Override
+    public void update() {
+
+    }
 }

@@ -17,4 +17,9 @@ public class PhilipsKettle implements ElectricKettle {
     public void showTemperature() {
         System.out.println("Running showTemperature in PhilipsKettle");
     }
+
+    @Override
+    public void adjustHeat() {
+
+    }
 }

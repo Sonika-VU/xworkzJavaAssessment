@@ -4,9 +4,10 @@ import com.xworkz.interfaces.connectors.BatteryCharger;
 import com.xworkz.interfaces.connectors.Microwave;
 
 public class ChargingHub implements BatteryCharger, Microwave {
+
     @Override
     public void startCharging() {
-
+        System.out.println();
     }
 
     @Override
@@ -17,6 +18,11 @@ public class ChargingHub implements BatteryCharger, Microwave {
     @Override
     public void showBatteryLevel() {
 
+    }
+
+    @Override
+    public void store() {
+        BatteryCharger.super.store();
     }
 
     @Override
@@ -32,5 +38,10 @@ public class ChargingHub implements BatteryCharger, Microwave {
     @Override
     public void openDoor() {
 
+    }
+
+    @Override
+    public void heat() {
+        Microwave.super.heat();
     }
 }

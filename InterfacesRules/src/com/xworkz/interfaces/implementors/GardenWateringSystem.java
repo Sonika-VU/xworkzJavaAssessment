@@ -17,4 +17,9 @@ public class GardenWateringSystem implements PlantWateringSystem {
     public void checkMoisture() {
         System.out.println("Running checkMoisture in GardenWateringSystem");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in EspressMaker");
+    }
 }

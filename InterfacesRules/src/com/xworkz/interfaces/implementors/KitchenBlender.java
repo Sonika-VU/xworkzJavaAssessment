@@ -17,4 +17,9 @@ public class KitchenBlender implements Blender {
     public void clean() {
         System.out.println("Running clean in KitchenBlender");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in KitchenBlender");
+    }
 }

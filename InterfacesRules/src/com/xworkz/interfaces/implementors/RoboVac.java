@@ -17,4 +17,10 @@ public class RoboVac implements VacuumCleaner {
     public void autoClean() {
         System.out.println("Running autoClean in RoboVac");
     }
+
+    @Override
+    public void sweep() {
+        System.out.println("Running sweep in RoboVac");
+
+    }
 }

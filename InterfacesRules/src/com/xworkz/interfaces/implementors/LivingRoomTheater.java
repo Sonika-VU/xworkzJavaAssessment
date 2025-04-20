@@ -17,4 +17,10 @@ public class LivingRoomTheater implements HomeTheater {
     public void stopMovie() {
         System.out.println("Running stopMovie in LivingRoomTheater");
     }
+
+    @Override
+    public void adjustSound() {
+        System.out.println("Running adjustSound in LivingRoomTheater");
+
+    }
 }

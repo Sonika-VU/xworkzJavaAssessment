@@ -6,4 +6,8 @@ public interface Blender {
     void stopBlending();
     void clean();
 
+    default void charge(){
+
+    }
+
 }

@@ -18,4 +18,9 @@ public class HomeAlarm implements AlarmSystem {
     public void triggerAlarm() {
         System.out.println("Running triggerAlarm in HomeAlarm");
     }
+
+    @Override
+    public void setSound() {
+        System.out.println("Running setSound in HomeAlarm");
+    }
 }

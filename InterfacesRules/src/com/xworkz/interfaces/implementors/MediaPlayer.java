@@ -17,5 +17,10 @@ public class MediaPlayer implements MusicPlayer {
     public void stop() {
         System.out.println("Running stop in MediaPlayer");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running stop in MediaPlayer");
+    }
 }
 

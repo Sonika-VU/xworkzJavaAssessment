@@ -17,4 +17,9 @@ public class OfficeFireAlarm implements FireAlarm {
     public void resetAlarm() {
         System.out.println("Running resetAlarm in OfficeFireAlarm");
     }
+
+    @Override
+    public void sprayWater() {
+
+    }
 }

@@ -17,4 +17,9 @@ public class SmartWindow implements WindowController {
     public void lockWindow() {
         System.out.println("Running lockWindow in SmartWindow");
     }
+
+    @Override
+    public void unlock() {
+
+    }
 }

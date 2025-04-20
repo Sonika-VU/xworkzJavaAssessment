@@ -5,4 +5,6 @@ public interface LightControl {
     void turnOff();
     void dim();
 
+    default void charge(){}
+
 }

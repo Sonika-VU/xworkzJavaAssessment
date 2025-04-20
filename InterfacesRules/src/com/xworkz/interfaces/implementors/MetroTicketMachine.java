@@ -17,4 +17,10 @@ public class MetroTicketMachine implements TicketMachine {
     public void displayInfo() {
         System.out.println("Running displayInfo in MetroTicketMachine");
     }
+
+    @Override
+    public void addPrice() {
+        System.out.println("Running addPrice in MetroTicketMachine");
+
+    }
 }

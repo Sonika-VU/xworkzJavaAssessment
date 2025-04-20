@@ -17,4 +17,9 @@ public class KitchenMicrowave implements Microwave {
     public void openDoor() {
         System.out.println("Running openDoor in KitchenMicrowave");
     }
+
+    @Override
+    public void heat() {
+        System.out.println("Running heat in KitchenMicrowave");
+    }
 }

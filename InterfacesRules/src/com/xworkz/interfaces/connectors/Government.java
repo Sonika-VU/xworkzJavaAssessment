@@ -4,4 +4,8 @@ public interface Government {
     void giveFreeBuses();
     void addAmount();
     void giveFood();
+
+    default void setRules(){
+
+    }
 }

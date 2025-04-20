@@ -6,4 +6,6 @@ public interface VacuumCleaner {
     void stop();
     void autoClean();
 
+
+    default void sweep(){}
 }

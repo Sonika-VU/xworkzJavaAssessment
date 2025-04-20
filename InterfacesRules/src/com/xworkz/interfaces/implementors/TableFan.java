@@ -8,6 +8,7 @@ public class TableFan implements Fan {
         System.out.println("Running turnOn in TableFan");
     }
 
+
     @Override
     public void turnOff() {
         System.out.println("Running turnOff in TableFan");

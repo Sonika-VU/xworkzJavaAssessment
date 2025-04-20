@@ -17,4 +17,9 @@ public class MainGate implements GateControl {
     public void lockGate() {
         System.out.println("Running lockGate in MainGate");
     }
+
+    @Override
+    public void addCamera() {
+        System.out.println("Running addCamera in MainGate");
+    }
 }

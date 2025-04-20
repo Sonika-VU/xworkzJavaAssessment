@@ -17,4 +17,9 @@ public class SplitAC implements AirConditioner {
     public void swing() {
         System.out.println("Running swing in SplitAC");
     }
+
+    @Override
+    public void fix() {
+        System.out.println("Running fic in SplitAC");
+    }
 }

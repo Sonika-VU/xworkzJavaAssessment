@@ -17,4 +17,9 @@ public class Patient implements Hospital {
     public void makeSurgery() {
 
     }
+
+    @Override
+    public void giceTablets() {
+
+    }
 }

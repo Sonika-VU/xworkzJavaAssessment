@@ -17,4 +17,9 @@ public class HomeTheaterProjector implements Projector {
     public void adjustFocus() {
         System.out.println("Running adjustFocus in HomeTheaterProjector");
     }
+
+    @Override
+    public void set() {
+        System.out.println("Running set in HomeTheaterProjector");
+    }
 }

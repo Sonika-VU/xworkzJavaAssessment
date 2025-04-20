@@ -17,4 +17,10 @@ public class NestThermostat implements Thermostat {
     public void showCurrentTemp() {
         System.out.println("Running showCurrentTemp in NestThermostat");
     }
+
+    @Override
+    public void addFeature() {
+        System.out.println("Running addFeature in NestThermostat");
+
+    }
 }

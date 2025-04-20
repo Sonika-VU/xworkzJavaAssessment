@@ -17,4 +17,9 @@ public class LedTV implements Television {
     public void mute() {
         System.out.println("Running mute in LedTV");
     }
+
+    @Override
+    public void display() {
+        System.out.println("Running display in LedTV");
+    }
 }

@@ -17,4 +17,9 @@ public class GardenSprinkler implements SprinklerSystem {
     public void testSystem() {
         System.out.println("Running testSystem in GardenSprinkler");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in GardenSprinkler");
+    }
 }

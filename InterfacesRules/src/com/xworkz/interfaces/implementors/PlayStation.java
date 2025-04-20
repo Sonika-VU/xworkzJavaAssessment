@@ -17,4 +17,9 @@ public class PlayStation implements GameConsole {
     public void quitGame() {
         System.out.println("Running quitGame in PlayStation");
     }
+
+    @Override
+    public void charge() {
+
+    }
 }

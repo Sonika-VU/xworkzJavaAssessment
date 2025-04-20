@@ -15,4 +15,9 @@ public class OfficePrinter implements Printer {
     public void copy() {
         System.out.println("Running copy in OfficePrinter");
     }
+
+    @Override
+    public void addPaper() {
+
+    }
 }

@@ -15,4 +15,9 @@ public class SmartRoom implements RoomAutomation {
     public void turnOnAC() {
         System.out.println("Running turnOnAC in SmartRoom");
     }
+
+    @Override
+    public void light() {
+        System.out.println("Runnng light in SmartRoom");
+    }
 }

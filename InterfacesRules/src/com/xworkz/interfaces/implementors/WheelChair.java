@@ -13,6 +13,8 @@ public class WheelChair implements Chair {
 
     }
 
+
+
     @Override
     public void expand() {
 

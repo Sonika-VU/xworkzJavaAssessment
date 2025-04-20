@@ -8,6 +8,7 @@ public class StreetFood implements FoodOrganization {
 
     }
 
+
     @Override
     public void avoidItem() {
 

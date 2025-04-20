@@ -17,4 +17,9 @@ public class PGMaintainer implements PGOwner {
     public void food() {
 
     }
+
+    @Override
+    public void rent() {
+
+    }
 }

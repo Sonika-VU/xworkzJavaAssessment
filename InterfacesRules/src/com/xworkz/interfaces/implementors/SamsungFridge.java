@@ -17,4 +17,9 @@ public class SamsungFridge implements SmartFridge {
     public void displayTemp() {
         System.out.println("Running displayTemp in SamsungFridge");
     }
+
+    @Override
+    public void keepItems() {
+        System.out.println("Running keepItems in SamsungFridge");
+    }
 }

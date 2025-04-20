@@ -17,4 +17,10 @@ public class MobileGame implements GameController
     public void resumeGame() {
         System.out.println("Running resumeGame in MobileGame");
     }
+
+    @Override
+    public void adjustTiming() {
+        System.out.println("Running adjustTiming in MobileGame");
+
+    }
 }

@@ -17,4 +17,9 @@ public class KarnatakaGovt implements Government {
     public void giveFood() {
 
     }
+
+    @Override
+    public void setRules() {
+
+    }
 }

@@ -5,4 +5,8 @@ public interface PlantWateringSystem
     void startWatering();
     void stopWatering();
     void checkMoisture();
+
+    default void charge(){
+
+    }
 }

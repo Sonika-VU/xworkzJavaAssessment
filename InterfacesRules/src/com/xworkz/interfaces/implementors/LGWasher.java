@@ -18,4 +18,10 @@ public class LGWasher implements WashingMachine {
     public void spin() {
         System.out.println("Running spin in LGWasher");
     }
+
+    @Override
+    public void setTimer() {
+        System.out.println("Running setTimer in LGWasher");
+
+    }
 }

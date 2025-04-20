@@ -6,4 +6,7 @@ public interface SprinklerSystem {
     void stopSprinklers();
     void testSystem();
 
+    default void charge(){
+
+    }
 }

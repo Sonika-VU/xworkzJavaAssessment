@@ -17,4 +17,9 @@ public class SmartAquarium implements AquariumSystem {
     public void checkTemperature() {
         System.out.println("Running checkTemperature in SmartAquarium");
     }
+
+    @Override
+    public void addLights() {
+
+    }
 }

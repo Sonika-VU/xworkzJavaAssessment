@@ -13,6 +13,8 @@ public class WoodenDoor  implements Door {
         System.out.println("Running close in WoodenDoor");
     }
 
+
+
     @Override
     public void lock() {
         System.out.println("Running lock in WoodenDoor");

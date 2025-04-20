@@ -4,4 +4,8 @@ public interface GateControl {
     void openGate();
     void closeGate();
     void lockGate();
+
+    default void addCamera(){
+
+    }
 }

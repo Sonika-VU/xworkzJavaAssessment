@@ -15,4 +15,10 @@ public class SmartLight implements LightControl {
     public void dim() {
         System.out.println("Running dim in SmartBulb");
     }
+
+    @Override
+    public void charge() {
+        System.out.println("Running charge in SmartBulb");
+
+    }
 }

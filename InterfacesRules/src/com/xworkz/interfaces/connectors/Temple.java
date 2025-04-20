@@ -4,4 +4,6 @@ public interface Temple {
     void chappalOut();
     void takeFood();
     void donate();
+
+    default void makePooja(){}
 }

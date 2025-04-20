@@ -4,4 +4,6 @@ public interface GameConsole {
     void startGame();
     void pauseGame();
     void quitGame();
+
+    default void charge(){}
 }

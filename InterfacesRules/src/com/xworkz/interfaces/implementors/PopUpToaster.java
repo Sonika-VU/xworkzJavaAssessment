@@ -17,4 +17,10 @@ public class PopUpToaster implements Toaster {
     public void popOut() {
         System.out.println("Running popOut in PopUpToaster");
     }
+
+
+    @Override
+    public void charge() {
+
+    }
 }

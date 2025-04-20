@@ -13,6 +13,8 @@ public class TrainingClass implements Institute {
 
     }
 
+
+
     @Override
     public void takeClasses() {
 

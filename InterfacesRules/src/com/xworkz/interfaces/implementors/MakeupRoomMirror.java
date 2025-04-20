@@ -18,4 +18,10 @@ public class MakeupRoomMirror implements SmartMirror {
         System.out.println("Running turnOffDisplay in BathroomMirror");
 
     }
+
+    @Override
+    public void adjustLight() {
+        System.out.println("Running adjustLight in BathroomMirror");
+
+    }
 }

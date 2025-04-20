@@ -5,4 +5,7 @@ public interface AlarmSystem {
     void disarm();
     void triggerAlarm();
 
+    default void setSound(){
+
+    }
 }
